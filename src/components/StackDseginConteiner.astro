@@ -1,0 +1,51 @@
+---
+import PhotoshopIcon from '../components/icons/PhotoshopIcon.astro';
+import IllustratorIcon from '../components/icons/IllustratorIcon.astro';
+import FigmaIcon from '../components/icons/FigmaIcon.astro';
+import PremierIcon from '../components/icons/PremierIcon.astro';
+
+import StackPill from '../components/StackPills.astro'
+---
+
+
+<nav class="flex gap-x-4 flex-wrap">
+    <div class="mt-6 md:mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6">
+        <StackPill>
+            <PhotoshopIcon class="size-12" />
+            <div class="mb-3 flex flex-col items-center justify-center py-4 pb-0">
+                <h5 class="text-[15px] font-medium text-balance text-center select-all">
+                    Photoshop
+                </h5>
+                <p class="opacity-50 text- pt-1 text-xs">Software</p>
+            </div>
+        </StackPill>
+        <StackPill>
+            <IllustratorIcon class="size-12" />
+            <div class="mb-3 flex flex-col items-center justify-center py-4 pb-0">
+                <h5 class="text-[15px] font-medium text-balance text-center select-all">
+                    Illustrator
+                </h5>
+                <p class="opacity-50 text- pt-1 text-xs">Vector SW</p>
+            </div>
+        </StackPill>
+        <StackPill>
+            <FigmaIcon class="size-12" />
+            <div class="mb-3 flex flex-col items-center justify-center py-4 pb-0">
+                <h5 class="text-[15px] font-medium text-balance text-center select-all">
+                    Figma
+                </h5>
+                <p class="opacity-50 text- pt-1 text-xs">Software</p>
+            </div>
+        </StackPill>
+        <StackPill>
+            <PremierIcon class="size-12" />
+            <div class="mb-3 flex flex-col items-center justify-center py-4 pb-0">
+                <h5 class="text-[15px] font-medium text-balance text-center select-all">
+                    Premier
+                </h5>
+                <p class="opacity-50 text- pt-1 text-xs">Videos SW</p>
+            </div>
+        </StackPill>
+
+    </div>
+</nav>

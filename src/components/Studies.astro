@@ -1,0 +1,36 @@
+---
+import StudiesItem from "./StudiesItem.astro"
+
+const STUDIES = [
+    {
+        index: 0,
+        date: "Primary School",
+        title: "Deutsche Schule Temperley",
+        description: "Trilingual School.",
+        link: "https://temperleyschule.edu.ar/"
+    },
+    {
+        index: 1,
+        date: "Secondary School",
+        title: "Colegio Manuel Belgrano Temperley",
+        description: "Graduated with a Bachelor's degree in Economic Sciences with an average grade of 8.",
+        link: "https://www.belgrano.esc.edu.ar/" 
+    },
+    {
+        index: 2,
+        date: "University Studies",
+        title: "IT Engineering - UADE",
+        description: "Current",
+        link: "https://www.uade.edu.ar/"
+    }
+]
+---
+<ol class="items-center sm:flex">
+        {
+            STUDIES.map(study => (
+            <li class="relative mb-6 sm:mb-0">
+                    <StudiesItem {...study} />
+                </li>
+            ))
+        }
+</ol>

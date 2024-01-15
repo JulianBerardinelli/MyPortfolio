@@ -1,0 +1,64 @@
+---
+import HtmlIcon from '../components/icons/HtmlIcon.astro'
+import CssIcon from '../components/icons/CssIcon.astro'
+import JSIcon from '../components/icons/JSIcon.astro'
+import {Chip} from "@nextui-org/react";
+
+
+
+const TAGS ={
+    HTML: {
+        name: "HTML5",
+        class: "bg-orange text-white",
+        icon: HtmlIcon
+    },
+    CSS: {
+        name: "CSS3",
+        class: "bg-white text-white",
+        icon: CssIcon
+    },
+    JAVASCRIPT: {
+        name: "JavaScript",
+        class: "bg-white text-white",
+        icon: JSIcon
+    },
+}
+
+const PROJECTS = [
+    {
+        title: "KYC Media Official WebSite",
+        description:
+            "KyC Media, your ally in digital marketing solutions. We enhance your online presence and business strategies. Discover how to stand out with our specialized services.",
+        link: "https://kycmedia.agency/",
+        github: "https://github.com/JulianBerardinelli/Kyc-MarketingSolutionsPage",
+        image: "/projects/projectKYC.webp", 
+        tags: [TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT],
+    },
+    {
+        title: "Project 2",
+        description:
+            "Welcome to the Official Website of Hertha Junior, an Argentine Amateur Football Club. Family, friends, and football. Currently competing in the Premier Cup.",
+        link: "https://herthajunior.vercel.app/",
+        github: "https://github.com/JulianBerardinelli/Hertha.jr-page.io",
+        image: "/projects/projectHERTHA.webp", 
+        tags: [TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT],
+    },
+];
+---
+
+{
+    PROJECTS.map(({ title, description, tags, image, github, link }) => (
+        <article>
+            <h3 class="text-2xl font-semibold mb-2 pt-5">{title}</h3>
+            <p class="text-lg mb-4 text pretty opacity-70">{description}</p>
+            <ul class="flex flex-row gap-x-4">
+                {tags.map((tag)=>(
+                    <li>
+
+                        </li>
+                ))}
+            </ul>
+            <img class="rounded shadow-black/10 mb-10" src={image} alt={`Screenshot - ${image}`} />  
+        </article>
+    ))
+}

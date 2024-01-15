@@ -1,0 +1,42 @@
+---
+import CertificateItem from "./CertificateItem.astro"
+
+const CERTIFICATES = [
+    {
+        date: "December 2023",
+        title: "Master's in JavaScript: MEAN Stack",
+        description: "Comprehensive JavaScript Course: From Fundamental Programming to Advanced MEAN Stack Development. Master JavaScript, jQuery, TypeScript, Angular, NodeJS, and build modern web applications. Enhance employability with skills in full-stack development, RESTful APIs, and MongoDB integration.",
+        link: "hola"
+    },
+    {
+        date: "September 2023 => 75% of the course completed.",
+        title: "IBM Data Science Professional Certificate - Coursera",
+        description: "Accelerate your entry into the booming field of data science with this 5-month program. From fundamental concepts to advanced skills, you'll master tools like Python, SQL, and machine learning algorithms. Build a robust portfolio through hands-on projects, gaining practical experience in financial analysis, predictive modeling, and dynamic dashboards.",
+        link: "https://www.coursera.org/account/accomplishments/certificate/YM39887UG76N"
+    },
+    {
+        date: "Febrary 2023",
+        title: "Web Developer Certificate - CoderHouse",
+        description: "Master the art of web development. Explore HTML, CSS, GIT, and SASS for efficient development. Master Bootstrap, SEO essentials, server deployment, and client communication. Acquire the skills to present budgets professionally",
+        link: "https://www.coderhouse.es/certificados/6456151de78efc0002ec9265"
+    },
+    {
+        date: "January 2022",
+        title: "Java for Non-Programmers",
+        description: "Explore the fundamentals of Java, covering syntax, semantics, flow control structures, application of constants and variables, conditional statements, various operators, vector creation and usage, arrays, and methods encompassing functions and procedures. Gain a comprehensive understanding of Java essentials in this course.",
+        link: "https://api.educacionit.com/pdf/certificados/julian-berardinelli-539995/44814"
+    }
+
+]
+---
+
+
+<ol class="relative border-s border-gray-700 ">
+    {
+        CERTIFICATES.map(certificate =>(
+        <li class="pt-3 mb-10 ms-6">
+            <CertificateItem {...certificate} />
+        </li>
+        ))
+    }
+</ol>
