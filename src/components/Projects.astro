@@ -3,45 +3,108 @@ import HtmlIcon from '../components/icons/HtmlIcon.astro'
 import CssIcon from '../components/icons/CssIcon.astro'
 import JSIcon from '../components/icons/JSIcon.astro'
 import {Chip} from "@nextui-org/react";
-
+import SassIcon from './icons/SassIcon.astro';
+import TailIcon from './icons/TailIcon.astro';
+import AngularIcon from './icons/AngularIcon.astro';
+import NodeIcon from './icons/NodeIcon.astro';
+import MongoIcon from './icons/MongoIcon.astro';
+import StrapiIcon from './icons/StrapiIcon.astro';
+import ExpressIcon from './icons/ExpressIcon.astro';
+import AWSIcon from './icons/AWSIcon.astro'
+import PostmanIcon from './icons/PostmanIcon.astro';
+import Loading from './Loading.astro'
 
 
 const TAGS ={
     HTML: {
         name: "HTML5",
-        class: "bg-orange text-white",
+        class: "bg-zinc-700 text-white",
         icon: HtmlIcon
     },
     CSS: {
         name: "CSS3",
-        class: "bg-white text-white",
+        class: "bg-blue-800 text-white",
         icon: CssIcon
     },
     JAVASCRIPT: {
         name: "JavaScript",
-        class: "bg-white text-white",
+        class: "bg-yellow-700 text-white",
         icon: JSIcon
+    },
+    SASS: {
+        name: "SASS",
+        class: "bg-pink-800 text-white",
+        icon: SassIcon
+    },
+    TAILWIND: {
+        name: "Tailwind CSS",
+        class: "bg-cyan-900 text-white",
+        icon: TailIcon
+    },
+    ANGULAR: {
+        name: "Angular",
+        class: "bg-purple-800 text-white",
+        icon: AngularIcon
+    },
+    NODEJS: {
+        name: "Node.js",
+        class: "bg-green-900 text-white",
+        icon: NodeIcon
+    },
+    MONGO: {
+        name: "MongoDB",
+        class: "bg-green-800 text-white",
+        icon: MongoIcon
+    },
+    STRAPI: {
+        name: "Strapi",
+        class: "bg-blue-800 text-white",
+        icon: StrapiIcon
+    },
+    EXPRESS:{
+        name: "Express",
+        class: "bg-zinc-700 text-white",
+        icon: ExpressIcon
+    },
+    AWS:{
+        name: "Amazon Web Service",
+        class: "bg-yellow-800 text-white",
+        icon: AWSIcon
+    },
+    POSTMAN:{
+        name: "Postman",
+        class: "bg-red-700 text-white",
+        icon: PostmanIcon
     },
 }
 
 const PROJECTS = [
     {
-        title: "KYC Media Official WebSite",
+        title: "FORELSKET-MB eCommerce ",
         description:
-            "KyC Media, your ally in digital marketing solutions. We enhance your online presence and business strategies. Discover how to stand out with our specialized services.",
-        link: "https://kycmedia.agency/",
-        github: "https://github.com/JulianBerardinelli/Kyc-MarketingSolutionsPage",
-        image: "/projects/projectKYC.webp", 
-        tags: [TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT],
+            "Excited to announce my first full-stack project—a 100% custom e-commerce solution for a valued client. Grateful for the opportunity and proud that everything I've learned, from languages to development environments, has been a solo, self-taught endeavor. Ready to showcase the results of this independent effort! 👨‍💻",
+        link: "",
+        github: "https://github.com/JulianBerardinelli/",
+        image: "/projects/projectFOREL.webp", 
+        tags: [TAGS.ANGULAR, TAGS.STRAPI,TAGS.MONGO,TAGS.NODEJS,TAGS.EXPRESS,TAGS.TAILWIND,TAGS.POSTMAN ,TAGS.AWS ],
     },
     {
-        title: "Project 2",
+        title: "KYC Media Official WebSite",
+        description:
+            "Your ally in digital marketing solutions. We enhance your online presence and business strategies. Discover how to stand out with our specialized services.",
+        link: "https://kycmedia.agency/",
+        github: "https://github.com/JulianBerardinelli/Kyc-MarketingSolutionsPage",
+        image:"/projects/projectKYC.webp",
+        tags: [TAGS.HTML, TAGS.CSS, TAGS.SASS ,TAGS.JAVASCRIPT],
+    },
+    {
+        title: "Hertha Junior - Official Website",
         description:
             "Welcome to the Official Website of Hertha Junior, an Argentine Amateur Football Club. Family, friends, and football. Currently competing in the Premier Cup.",
         link: "https://herthajunior.vercel.app/",
         github: "https://github.com/JulianBerardinelli/Hertha.jr-page.io",
         image: "/projects/projectHERTHA.webp", 
-        tags: [TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT],
+        tags: [TAGS.HTML, TAGS.CSS, TAGS.SASS, TAGS.TAILWIND ,TAGS.JAVASCRIPT],
     },
 ];
 ---
@@ -49,16 +112,22 @@ const PROJECTS = [
 {
     PROJECTS.map(({ title, description, tags, image, github, link }) => (
         <article>
-            <h3 class="text-2xl font-semibold mb-2 pt-5">{title}</h3>
-            <p class="text-lg mb-4 text pretty opacity-70">{description}</p>
-            <ul class="flex flex-row gap-x-4">
+            <h3 class=" text-lg lg:text-2xl font-semibold mb-2 pt-5 text-blue-200">
+                {title}
+                {title === 'FORELSKET-MB eCommerce ' && <Loading />}
+                </h3>
+            <p class="text-sm lg:text-lg mb-4 text-pretty opacity-70">{description}</p>
+            <ul class="flex flex-row gap-x-4 gap-y-2 mb-6 flex-wrap">
                 {tags.map((tag)=>(
                     <li>
-
+                        <span class={`flex gap-x-2 rounded-full text-xs  ${tag.class} py-1 px-3`}>
+                            <tag.icon class="size-4" />
+                        {tag.name}
+                        </span>
                         </li>
                 ))}
             </ul>
-            <img class="rounded shadow-black/10 mb-10" src={image} alt={`Screenshot - ${image}`} />  
+            <img class="rounded shadow-black/10 mb-10" src={image} alt={`Screenshot - ${image}`} /> 
         </article>
     ))
 }
