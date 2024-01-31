@@ -13,6 +13,10 @@ import ExpressIcon from './icons/ExpressIcon.astro';
 import AWSIcon from './icons/AWSIcon.astro'
 import PostmanIcon from './icons/PostmanIcon.astro';
 import Loading from './Loading.astro'
+import { transitionEnabledOnThisPage } from 'astro:transitions/client';
+
+import i18next, { t, changeLanguage } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
 
 
 const TAGS ={
@@ -81,8 +85,7 @@ const TAGS ={
 const PROJECTS = [
     {
         title: "FORELSKET-MB eCommerce ",
-        description:
-            "Excited to announce my first full-stack project—a 100% custom e-commerce solution for a valued client. Grateful for the opportunity and proud that everything I've learned, from languages to development environments, has been a solo, self-taught endeavor. Ready to showcase the results of this independent effort! 👨‍💻",
+        description: t("PROJ.first.desc"),
         link: "",
         github: "https://github.com/JulianBerardinelli/",
         image: "/projects/projectFOREL.webp", 
@@ -90,8 +93,7 @@ const PROJECTS = [
     },
     {
         title: "KYC Media Official WebSite",
-        description:
-            "Your ally in digital marketing solutions. We enhance your online presence and business strategies. Discover how to stand out with our specialized services.",
+        description: t("PROJ.second.desc"),
         link: "https://kycmedia.agency/",
         github: "https://github.com/JulianBerardinelli/Kyc-MarketingSolutionsPage",
         image:"/projects/projectKYC.webp",
@@ -99,8 +101,7 @@ const PROJECTS = [
     },
     {
         title: "Hertha Junior - Official Website",
-        description:
-            "Welcome to the Official Website of Hertha Junior, an Argentine Amateur Football Club. Family, friends, and football. Currently competing in the Premier Cup.",
+        description: t("PROJ.third.desc"),
         link: "https://herthajunior.vercel.app/",
         github: "https://github.com/JulianBerardinelli/Hertha.jr-page.io",
         image: "/projects/projectHERTHA.webp", 

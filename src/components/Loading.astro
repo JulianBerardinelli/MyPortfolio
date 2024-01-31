@@ -1,11 +1,13 @@
 ---
 import {Button} from "@nextui-org/react";
+import i18next, { t, changeLanguage } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
 
 ---
 
 <Button color="success" isLoading
 className="text-green-500 bg-black-0 opacity-100"
 >
-    Comming soon
+    {t("PROJ.loading")}
   </Button>
 

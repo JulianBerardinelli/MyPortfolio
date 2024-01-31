@@ -1,11 +1,17 @@
+---
+import i18next, { t, changeLanguage } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+---
+
+
 <header class="flex justify-center items-center py-5 w-full xl:w-[1120px] mx-auto">
 
     <nav class="hidden sm:flex flex-row gap-x-10 opacity-80">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#certificates">Certificates</a>       
-        <a href="#proyects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#home">{t("header.home")}</a>
+        <a href="#about">{t("header.about")}</a>
+        <a href="#certificates">{t("header.certificates")}</a>       
+        <a href="#projects">{t("header.projects")}</a>
+        <a href="#contact">{t("header.contact")}</a>
     </nav>
 </header>
 

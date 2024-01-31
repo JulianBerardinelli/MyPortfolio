@@ -1,26 +1,29 @@
 ---
 import StudiesItem from "./StudiesItem.astro"
+//translations
+import i18next, { t, changeLanguage } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
 
 const STUDIES = [
     {
         index: 0,
-        date: "Primary School",
+        date: t("STUDIE.fisrt.date") ,
         title: "Deutsche Schule Temperley",
-        description: "Trilingual School.",
+        description: t("STUDIE.fisrt.description"),
         link: "https://temperleyschule.edu.ar/"
     },
     {
         index: 1,
-        date: "Secondary School",
+        date:  t("STUDIE.second.date") ,
         title: "Colegio Manuel Belgrano Temperley",
-        description: "Graduated with a Bachelor's degree in Economic Sciences with an average grade of 8.",
+        description:  t("STUDIE.second.description") ,
         link: "https://www.belgrano.esc.edu.ar/" 
     },
     {
         index: 2,
-        date: "University Studies",
-        title: "IT Engineering - UADE",
-        description: "Current",
+        date:  t("STUDIE.third.date"),
+        title: t("STUDIE.third.title"),
+        description:  t("STUDIE.third.description"),
         link: "https://www.uade.edu.ar/"
     }
 ]
