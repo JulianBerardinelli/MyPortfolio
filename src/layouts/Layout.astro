@@ -35,7 +35,7 @@ import i18next from "i18next";
 		color-scheme: light dark;
 	}
 	html {
-		background: #050505;
+		background: linear-gradient(to bottom, #03045e, #020024);
 		font-family:
 			"Onest Variable" system-ui,
 			sans-serif;
@@ -43,7 +43,7 @@ import i18next from "i18next";
 
 	}
 	body {
-		background-color: #050505;
+		background: linear-gradient(to bottom, #03045e, #020024);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -51,6 +51,17 @@ import i18next from "i18next";
 		min-height: 100vh;
 		font-family: "Onest Variable";
 	}
+	body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-image: url('ruta/de/tu/textura-de-grano.png'); /* Reemplaza con la ruta correcta de tu textura de grano */
+    opacity: 0.1; /* Ajusta la opacidad según sea necesario */
+}
 	@media (prefers-reduce-motion: reduce){
 		html {
 			scroll-behavior: auto;
