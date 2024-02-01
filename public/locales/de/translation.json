@@ -1,94 +1,96 @@
 {
     "site": {
         "title": "Julián Berardinelli - Portfolio",
-        "description": "Hire Julian Berardinelli - Web Development and Graphic Design Services"
+        "description": "Julian Berardinelli - Webentwicklung und Grafikdesign-Dienstleistungen"
     },
     "header": {
-        "home": "Home",
-        "about": "About me",
-        "certificates":"Certificates",
-        "projects":"Projects",
-        "contact": "Contact"
+        "home": "Startseite",
+        "about": "Über mich",
+        "certificates": "Zertifikate",
+        "projects": "Projekte",
+        "contact": "Kontakt"
     },
     "main": {
-        "title": "Hey, I'm Julián Berardinelli",
-        "badge": "Avaiable for work!",
+        "title": "Hallo, ich bin Julián Berardinelli",
+        "badge": "Verfügbar für Arbeit!",
         "description": {
-            "from": "From ", "to": " to "
+            "from": "Von ", "to": " bis "
         }
     },
     "aboutme": {
-        "title": "About Me",
-        "description": "My name is Julian, I'm 19 years old, and currently a professional football player and a IT engineering student. I discovered the world of development a year ago, my main strengths are being self-taught and quick to learn, specializing in full-stack web development and also working as a sports graphic designer",
-        "studies": "Studies"
+        "title": "Über mich",
+        "description": "Mein Name ist Julian, ich bin 19 Jahre alt und derzeit professioneller Fußballspieler und Student der Informationstechnik. Ich habe vor einem Jahr die Welt der Entwicklung entdeckt. Meine Hauptstärken sind Selbststudium und schnelles Lernen, spezialisiert auf Full-Stack-Webentwicklung und Arbeit als Sportgrafikdesigner.",
+        "studies": "Studium"
     },
     "STUDIE": {
         "fisrt": {
-            "date": "Primary School",
-            "description": "Trilingual School."
+            "date": "Grundschule",
+            "description": "Trilinguale Schule."
         },
         "second": {
-            "date": "Secondary School",
-            "description": "Graduated with a Bachelor's degree in Economic Sciences with an average grade of 8."
+            "date": "Sekundarschule",
+            "description": "Abschluss in Wirtschaftswissenschaften mit einem Durchschnitt von 8."
         },
         "third": {
-            "title": "IT Engineering - UADE",
-            "date": "University Studies",
-            "description": "Current"
+            "title": "Informationstechnik - UADE",
+            "date": "Universitätsstudium",
+            "description": "Aktuell"
         }
     },
     "knowledge": {
-        "title": "My Stack",
-        "developer": "DEVELOPER",
+        "title": "Mein Stack",
+        "developer": "ENTWICKLER",
         "designer": "DESIGNER"
     },
     "certificates": {
-        "title": "Certificates"
+        "title": "Zertifikate"
     },
     "CERT": {
         "first":{
-            "date": "December 2023",
-            "title": "Master's in JavaScript: MEAN Stack",
-            "desc": "Comprehensive JavaScript Course: From Fundamental Programming to Advanced MEAN Stack Development. Master JavaScript, jQuery, TypeScript, Angular, NodeJS, and build modern web applications. Enhance employability with skills in full-stack development, RESTful APIs, and MongoDB integration."
+            "date": "Dezember 2023",
+            "title": "Master in JavaScript: MEAN Stack",
+            "desc": "Umfassender JavaScript-Kurs: Von grundlegender Programmierung bis zur fortgeschrittenen MEAN Stack-Entwicklung. Beherrschen Sie JavaScript, jQuery, TypeScript, Angular, NodeJS und erstellen Sie moderne Webanwendungen. Verbessern Sie die Beschäftigungsfähigkeit mit Fähigkeiten in der Full-Stack-Entwicklung, RESTful APIs und MongoDB-Integration."
         },
         "second":{
-            "date": "September 2023 => 75% of the course completed.",
+            "date": "September 2023 => 75% des Kurses abgeschlossen.",
             "title": "IBM Data Science Professional Certificate - Coursera",
-            "desc": "Accelerate your entry into the booming field of data science with this 5-month program. From fundamental concepts to advanced skills, you'll master tools like Python, SQL, and machine learning algorithms. Build a robust portfolio through hands-on projects, gaining practical experience in financial analysis, predictive modeling, and dynamic dashboards."
-
+            "desc": "Beschleunigen Sie Ihren Einstieg in das boomende Feld der Datenwissenschaft mit diesem 5-monatigen Programm. Von grundlegenden Konzepten bis zu fortgeschrittenen Fähigkeiten werden Sie Werkzeuge wie Python, SQL und maschinelles Lernen beherrschen. Bauen Sie ein robustes Portfolio durch praktische Projekte auf und sammeln Sie praktische Erfahrungen in Finanzanalyse, Vorhersagemodellierung und dynamischen Dashboards."
         },
         "third":{
-            "date": "Febrary 2023",
-            "title": "Web Developer Certificate - CoderHouse",
-            "desc": "Master the art of web development. Explore HTML, CSS, GIT, and SASS for efficient development. Master Bootstrap, SEO essentials, server deployment, and client communication. Acquire the skills to present budgets professionally."
-
+            "date": "Februar 2023",
+            "title": "Webentwickler-Zertifikat - CoderHouse",
+            "desc": "Meistern Sie die Kunst der Webentwicklung. Erkunden Sie HTML, CSS, GIT und SASS für effiziente Entwicklung. Beherrschen Sie Bootstrap, SEO-Grundlagen, Serverbereitstellung und Kommunikation mit dem Client. Erlangen Sie die Fähigkeiten, Budgets professionell zu präsentieren."
         },
         "fourth":{
-            "date": "January 2022",
-            "title": "Java for Non-Programmers",
-            "desc": "Explore the fundamentals of Java, covering syntax, semantics, flow control structures, application of constants and variables, conditional statements, various operators, vector creation and usage, arrays, and methods encompassing functions and procedures. Gain a comprehensive understanding of Java essentials in this course."
+            "date": "Januar 2022",
+            "title": "Java für Nicht-Programmierer",
+            "desc": "Erkunden Sie die Grundlagen von Java, von Syntax über Semantik, Flusskontrollstrukturen, Anwendung von Konstanten und Variablen, bedingte Anweisungen, verschiedene Operatoren, Vektorerstellung und -verwendung, Arrays bis hin zu Methoden mit Funktionen und Prozeduren. Erlangen Sie ein umfassendes Verständnis der Java-Grundlagen in diesem Kurs."
         }
     },
     "projects": {
-        "title": "Projects"
+        "title": "Projekte"
     },
     "PROJ":{
-        "loading": "Comming soon ...",
+        "loading": "Demnächst ...",
         "first": {
-            "desc": "Excited to announce my first full-stack project—a 100% custom e-commerce solution for a valued client. Grateful for the opportunity and proud that everything I've learned, from languages to development environments, has been a solo, self-taught endeavor. Ready to showcase the results of this independent effort! 👨‍💻"
+            "desc": "Freue mich, mein erstes Full-Stack-Projekt anzukündigen - eine zu 100% maßgeschneiderte E-Commerce-Lösung für einen geschätzten Kunden. Dankbar für die Gelegenheit und stolz darauf, dass alles, was ich gelernt habe, von Sprachen bis zu Entwicklungsumgebungen, ein Solo- und Selbstlernprojekt war. Bereit, die Ergebnisse dieser unabhängigen Anstrengung zu präsentieren! 👨‍💻"
         },
         "second": {
-            "desc":"Your ally in digital marketing solutions. We enhance your online presence and business strategies. Discover how to stand out with our specialized services."
+            "desc": "Ihr Verbündeter in Lösungen für digitales Marketing. Wir verbessern Ihre Online-Präsenz und Geschäftsstrategien. Entdecken Sie, wie Sie mit unseren spezialisierten Dienstleistungen herausstechen können."
         },
         "third": {
-            "desc": "Welcome to the Official Website of Hertha Junior, an Argentine Amateur Football Club. Family, friends, and football. Currently competing in the Premier Cup."
+            "desc": "Willkommen auf der offiziellen Website von Hertha Junior, einem argentinischen Amateurfußballverein. Familie, Freunde und Fußball. Derzeit in der Premier Cup am Wettbewerb beteiligt."
         }
-
     },
     "designerProfile": {
-        "title": "Graphic Designer Profile",
-        "subTitle-1":"Illustrations Project",
-        "illustration-parrafo": "Throughout my life, I have stood out for my creativity, with drawing as my distinctive form of artistic expression. From works on paper, canvas, and graffiti on walls to current digital illustration, my skill set reflects adaptability and technical proficiency. My unique artistic approach and illustration abilities are valuable assets for any creative project.",
-        "subTitle-2":"Personal Branding & Media Designer"
+        "title": "Profil des Grafikdesigners",
+        "subTitle-1":"Illustrationsprojekt",
+        "illustration-parrafo": "Während meines Lebens habe ich mich durch meine Kreativität hervorgetan, wobei das Zeichnen meine charakteristische Form der künstlerischen Ausdrucksweise ist. Von Arbeiten auf Papier, Leinwand und Graffiti an Wänden bis zur aktuellen digitalen Illustration spiegelt mein Fähigkeiten-Set Anpassungsfähigkeit und technische Kompetenz wider. Mein einzigartiger künstlerischer Ansatz und meine Illustrationsfähigkeiten sind wertvolle Assets für jedes kreative Projekt.",
+        "subTitle-2":"Personal Branding & Media Designer",
+        "photoshop-parrafo2": "Steigern Sie Ihre sportliche Karriere mit wirkungsvollem Personal Branding. Präsentieren Sie sich Sportmöglichkeiten mit einem professionell gestalteten Lebenslauf/Portfolio mit einem markanten und vollständig individualisierten Design. Profitieren Sie von unserem schnellen Service, der eine Lieferung in weniger als einer Woche für eine schnelle und effiziente Erfahrung gewährleistet."
+    },
+    "footer":{
+        "derechos":"Alle Rechte vorbehalten.",
+        "politics": "Datenschutzrichtlinie"
     }
 }

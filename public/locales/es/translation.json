@@ -1,94 +1,96 @@
 {
     "site": {
-        "title": "Julián Berardinelli - Portfolio",
-        "description": "Hire Julian Berardinelli - Web Development and Graphic Design Services"
+        "title": "Julián Berardinelli - Portafolio",
+        "description": "Contrata a Julián Berardinelli - Servicios de Desarrollo Web y Diseño Gráfico"
     },
     "header": {
-        "home": "Home",
-        "about": "About me",
-        "certificates":"Certificates",
-        "projects":"Projects",
-        "contact": "Contact"
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "certificates": "Certificados",
+        "projects": "Proyectos",
+        "contact": "Contacto"
     },
     "main": {
-        "title": "Hey, I'm Julián Berardinelli",
-        "badge": "Avaiable for work!",
+        "title": "Hola, soy Julián Berardinelli",
+        "badge": "¡Disponible para trabajar!",
         "description": {
-            "from": "From ", "to": " to "
+            "from": "Desde ", "to": " hasta "
         }
     },
     "aboutme": {
-        "title": "About Me",
-        "description": "My name is Julian, I'm 19 years old, and currently a professional football player and a IT engineering student. I discovered the world of development a year ago, my main strengths are being self-taught and quick to learn, specializing in full-stack web development and also working as a sports graphic designer",
-        "studies": "Studies"
+        "title": "Sobre mí",
+        "description": "Mi nombre es Julián, tengo 19 años y actualmente soy jugador profesional de fútbol y estudiante de ingeniería informática. Descubrí el mundo del desarrollo hace un año, mis principales fortalezas son la autodidacta y la rápida capacidad de aprendizaje, especializándome en desarrollo web full-stack y también trabajando como diseñador gráfico deportivo.",
+        "studies": "Estudios"
     },
     "STUDIE": {
         "fisrt": {
-            "date": "Primary School",
-            "description": "Trilingual School."
+            "date": "Escuela Primaria",
+            "description": "Escuela trilingüe."
         },
         "second": {
-            "date": "Secondary School",
-            "description": "Graduated with a Bachelor's degree in Economic Sciences with an average grade of 8."
+            "date": "Escuela Secundaria",
+            "description": "Graduado con un título de Licenciado en Ciencias Económicas con un promedio de 8."
         },
         "third": {
-            "title": "IT Engineering - UADE",
-            "date": "University Studies",
-            "description": "Current"
+            "title": "Ingeniería Informática - UADE",
+            "date": "Estudios Universitarios",
+            "description": "Actualidad"
         }
     },
     "knowledge": {
-        "title": "My Stack",
-        "developer": "DEVELOPER",
-        "designer": "DESIGNER"
+        "title": "Mi Stack",
+        "developer": "DESARROLLADOR",
+        "designer": "DISEÑADOR"
     },
     "certificates": {
-        "title": "Certificates"
+        "title": "Certificados"
     },
     "CERT": {
-        "first":{
-            "date": "December 2023",
-            "title": "Master's in JavaScript: MEAN Stack",
-            "desc": "Comprehensive JavaScript Course: From Fundamental Programming to Advanced MEAN Stack Development. Master JavaScript, jQuery, TypeScript, Angular, NodeJS, and build modern web applications. Enhance employability with skills in full-stack development, RESTful APIs, and MongoDB integration."
+        "first": {
+            "date": "Diciembre de 2023",
+            "title": "Máster en JavaScript: MEAN Stack",
+            "desc": "Curso integral de JavaScript: desde programación fundamental hasta desarrollo avanzado de MEAN Stack. Domina JavaScript, jQuery, TypeScript, Angular, NodeJS y construye aplicaciones web modernas. Mejora tu empleabilidad con habilidades en desarrollo full-stack, APIs RESTful e integración de MongoDB."
         },
-        "second":{
-            "date": "September 2023 => 75% of the course completed.",
-            "title": "IBM Data Science Professional Certificate - Coursera",
-            "desc": "Accelerate your entry into the booming field of data science with this 5-month program. From fundamental concepts to advanced skills, you'll master tools like Python, SQL, and machine learning algorithms. Build a robust portfolio through hands-on projects, gaining practical experience in financial analysis, predictive modeling, and dynamic dashboards."
-
+        "second": {
+            "date": "Septiembre de 2023 => 75% del curso completado.",
+            "title": "Certificado Profesional en Ciencia de Datos de IBM - Coursera",
+            "desc": "Acelera tu entrada en el próspero campo de la ciencia de datos con este programa de 5 meses. Desde conceptos fundamentales hasta habilidades avanzadas, dominarás herramientas como Python, SQL y algoritmos de aprendizaje automático. Construye un portafolio sólido a través de proyectos prácticos, obteniendo experiencia práctica en análisis financiero, modelado predictivo y paneles dinámicos."
         },
-        "third":{
-            "date": "Febrary 2023",
-            "title": "Web Developer Certificate - CoderHouse",
-            "desc": "Master the art of web development. Explore HTML, CSS, GIT, and SASS for efficient development. Master Bootstrap, SEO essentials, server deployment, and client communication. Acquire the skills to present budgets professionally."
-
+        "third": {
+            "date": "Febrero de 2023",
+            "title": "Certificado de Desarrollador Web - CoderHouse",
+            "desc": "Domina el arte del desarrollo web. Explora HTML, CSS, GIT y SASS para un desarrollo eficiente. Domina Bootstrap, fundamentos de SEO, implementación de servidor y comunicación con el cliente. Adquiere las habilidades para presentar presupuestos de manera profesional."
         },
-        "fourth":{
-            "date": "January 2022",
-            "title": "Java for Non-Programmers",
-            "desc": "Explore the fundamentals of Java, covering syntax, semantics, flow control structures, application of constants and variables, conditional statements, various operators, vector creation and usage, arrays, and methods encompassing functions and procedures. Gain a comprehensive understanding of Java essentials in this course."
+        "fourth": {
+            "date": "Enero de 2022",
+            "title": "Java para No Programadores",
+            "desc": "Explora los fundamentos de Java, cubriendo sintaxis, semántica, estructuras de control de flujo, aplicación de constantes y variables, declaraciones condicionales, varios operadores, creación y uso de vectores, matrices y métodos que abarcan funciones y procedimientos. Obtén una comprensión integral de los conceptos esenciales de Java en este curso."
         }
     },
     "projects": {
-        "title": "Projects"
+        "title": "Proyectos"
     },
-    "PROJ":{
-        "loading": "Comming soon ...",
+    "PROJ": {
+        "loading": "Próximamente...",
         "first": {
-            "desc": "Excited to announce my first full-stack project—a 100% custom e-commerce solution for a valued client. Grateful for the opportunity and proud that everything I've learned, from languages to development environments, has been a solo, self-taught endeavor. Ready to showcase the results of this independent effort! 👨‍💻"
+            "desc": "Emocionado de anunciar mi primer proyecto full-stack: una solución de comercio electrónico 100% personalizada para un cliente valioso. Agradecido por la oportunidad y orgulloso de que todo lo que he aprendido, desde lenguajes hasta entornos de desarrollo, haya sido un esfuerzo en solitario y autodidacta. ¡Listo para mostrar los resultados de este esfuerzo independiente! 👨‍💻"
         },
         "second": {
-            "desc":"Your ally in digital marketing solutions. We enhance your online presence and business strategies. Discover how to stand out with our specialized services."
+            "desc": "Tu aliado en soluciones de marketing digital. Mejoramos tu presencia en línea y estrategias comerciales. Descubre cómo destacar con nuestros servicios especializados."
         },
         "third": {
-            "desc": "Welcome to the Official Website of Hertha Junior, an Argentine Amateur Football Club. Family, friends, and football. Currently competing in the Premier Cup."
+            "desc": "Bienvenido al sitio web oficial de Hertha Junior, un club de fútbol amateur argentino. Familia, amigos y fútbol. Actualmente compitiendo en la Copa Premier."
         }
-
     },
     "designerProfile": {
-        "title": "Graphic Designer Profile",
-        "subTitle-1":"Illustrations Project",
-        "illustration-parrafo": "Throughout my life, I have stood out for my creativity, with drawing as my distinctive form of artistic expression. From works on paper, canvas, and graffiti on walls to current digital illustration, my skill set reflects adaptability and technical proficiency. My unique artistic approach and illustration abilities are valuable assets for any creative project.",
-        "subTitle-2":"Personal Branding & Media Designer"
+        "title": "Perfil de Diseñador Gráfico",
+        "subTitle-1": "Proyecto de Ilustraciones",
+        "illustration-parrafo": "A lo largo de mi vida, me he destacado por mi creatividad, con el dibujo como mi forma distintiva de expresión artística. Desde obras en papel, lienzo y graffiti en paredes hasta la actual ilustración digital, mi conjunto de habilidades refleja adaptabilidad y competencia técnica. Mi enfoque artístico único y habilidades de ilustración son activos valiosos para cualquier proyecto creativo.",
+        "subTitle-2": "Diseñador de Marca Personal y Medios",
+        "photoshop-parrafo2": "Eleva tu carrera atlética con un impactante branding personal. Preséntate a oportunidades deportivas con un CV/Portafolio profesionalmente elaborado con un diseño distintivo y completamente personalizado. Benefíciate de nuestro servicio rápido, asegurando la entrega en menos de una semana para una experiencia rápida y eficiente."
+    },
+    "footer": {
+        "derechos": "Todos los derechos reservados.",
+        "politics": "Política de privacidad"
     }
 }

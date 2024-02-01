@@ -2,30 +2,30 @@
 //translations
 import i18next, { t, changeLanguage } from "i18next";
 import { Trans, HeadHrefLangs } from "astro-i18next/components";
-import Layout from "../layouts/Layout.astro";
-import Badge from "../components/Badge.astro";
-import LinkedinIcon from "../components/icons/LinkedinIcon.astro";
-import GithubIcon from "../components/icons/GithubIcon.astro";
-import MailIcon from "../components/icons/MailIcon.astro";
-import AboutIcon from "../components/icons/AboutIcon.astro";
-import BehnanceIcon from "../components/icons/Behnance.astro";
-import StackIcon from "../components/icons/StackIcon.astro";
-import CertificateIcon from "../components/icons/CertificateIcon.astro";
-import DesignsContent from "../components/DesignsContent.tsx";
-import Carousel from "../components/Carousel.astro";
-import Certificates from "../components/Certificates.astro";
-import SocialPill from "../components/SocialPill.astro";
-import SectionsContainers from "../components/SectionsContainers.astro";
-import StackContainer from "../components/StackContainer.astro";
-import StackDseginConteiner from "../components/StackDseginConteiner.astro";
-import Studies from "../components/Studies.astro";
-import Projects from "../components/Projects.astro";
-import ProjectsIcon from "../components/icons/ProjectsIcon.astro";
-import DesignerIcon from "../components/icons/DesignerIcon.astro";
-import DesignsContentMedia from "../components/DesignsContentMedia";
-import Footer from "../components/Footer.astro";
+import Layout from "../../layouts/Layout.astro";
+import Badge from "../../components/Badge.astro";
+import LinkedinIcon from "../../components/icons/LinkedinIcon.astro";
+import GithubIcon from "../../components/icons/GithubIcon.astro";
+import MailIcon from "../../components/icons/MailIcon.astro";
+import AboutIcon from "../../components/icons/AboutIcon.astro";
+import BehnanceIcon from "../../components/icons/Behnance.astro";
+import StackIcon from "../../components/icons/StackIcon.astro";
+import CertificateIcon from "../../components/icons/CertificateIcon.astro";
+import DesignsContent from "../../components/DesignsContent";
+import Carousel from "../../components/Carousel.astro";
+import Certificates from "../../components/Certificates.astro";
+import SocialPill from "../../components/SocialPill.astro";
+import SectionsContainers from "../../components/SectionsContainers.astro";
+import StackContainer from "../../components/StackContainer.astro";
+import StackDseginConteiner from "../../components/StackDseginConteiner.astro";
+import Studies from "../../components/Studies.astro";
+import Projects from "../../components/Projects.astro";
+import ProjectsIcon from "../../components/icons/ProjectsIcon.astro";
+import DesignerIcon from "../../components/icons/DesignerIcon.astro";
+import DesignsContentMedia from "../../components/DesignsContentMedia";
+import Footer from "../../components/Footer.astro";
 
-changeLanguage("en");
+changeLanguage("es");
 ---
 
 <Layout title={t("site.title")}
@@ -52,7 +52,8 @@ description={t("site.description")}>
 			class="block sm:hidden justify-center items-center pb-4">
 				<Badge>{t("main.badge")}</Badge>
 			<a/>
-			<h2 class="text-m lg:text-xl text-wrap opacity-90 max-w-[700px]">Junior <span class="text-green-300 font-semibold">Full-Stack</span> Web Developer and <span class="font-semibold text-purple-300">Graphic Designer</span>
+			<h2 class="text-m lg:text-xl text-wrap opacity-90 max-w-[700px]">
+				Desarrollador Web <span class="text-green-300 font-semibold">Full-Stack</span> Junior y <span class="font-semibold text-purple-300">Graphic Designer</span>
 			<br>
 			{t("main.description.from")}<img class="w-7 inline" src="/logos/arg-flag.png" alt="">{t("main.description.to")}<img class="w-6 inline" src="/logos/eur-flag.png" alt="">
 			</h2>
