@@ -11,6 +11,8 @@ const { description, title } = Astro.props;
 
 //translations
 import i18next from "i18next";
+import { HeadHrefLangs } from "astro-i18next/components";
+import { LanguageSelector } from "astro-i18next/components";
 
 ---
 
@@ -23,8 +25,16 @@ import i18next from "i18next";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Julián Berardinelli</title>
+		<HeadHrefLangs />
 	</head>
 	<body>
+		<div class="flex justify-end items-center">
+			<div class="w-50% py-4 px-4">
+				<LanguageSelector showFlag={true} class=" sm:hidden rounded-full border bg-black/5 border-white/5 gap-x-2 px-1 font-light text-xs hover:scale-105 hover:bg-black/10 hover:boder-blue-500 transition focus:outline-none" />
+			</div>
+		</div>
+
+
 		<Header />
 		<slot />
 	</body>

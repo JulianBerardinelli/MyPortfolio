@@ -22,6 +22,8 @@ import Studies from "../components/Studies.astro";
 import Projects from "../components/Projects.astro";
 import ProjectsIcon from "../components/icons/ProjectsIcon.astro";
 import DesignerIcon from "../components/icons/DesignerIcon.astro";
+import DesignsContentMedia from '../components/DesignsContentMedia'
+import Footer from '../components/Footer.astro'
 
 changeLanguage("en");
 ---
@@ -124,9 +126,17 @@ description={t("site.description")}>
 			<DesignsContent client:visible header="Header" />
 			<h2 class="flex items-center gap-x-3 text-lg lg:text-2xl font-semibold mb-4 mt-16 text-blue-200">
 				{t("designerProfile.subTitle-2")}</h2>
-			<Carousel></Carousel>
-
+				<p class="text-sm lg:text-lg mb-4 pb-4 text-pretty opacity-70">{t("designerProfile.photoshop-parrafo2")}
+				</p>
+			<DesignsContentMedia client:visible header="Header" ></DesignsContentMedia>
+			<div class="pt-4">
+				<SocialPill href="https://www.behance.net/julianberardi1/" target="_blank">
+					<BehnanceIcon class="size-4 lg:size-6 "/>
+					Behnance
+				</a>
+				</SocialPill>
+			</div>
 		</SectionsContainers>
-
 	</main>
+	<Footer/>
 </Layout>

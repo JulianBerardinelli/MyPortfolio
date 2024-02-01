@@ -36,7 +36,7 @@ export default function NextCard({ header }: { header: string }) {
         <Image
           removeWrapper
           alt="Card background"
-          className="z-0 w-full h-full object-cover transition-all duration-1000 ease-in-out group-hover:opacity-80 group-hover:filter-blur"
+          className=" z-0 w-full h-full object-cover transition-all duration-1000 ease-in-out group-hover:opacity-80 group-hover:filter-blur"
           src={illust1[imageIndex1]}
         />
       </Card>
@@ -44,7 +44,7 @@ export default function NextCard({ header }: { header: string }) {
         <Image
           removeWrapper
           alt="illustrations"
-          className="z-0 w-full h-full object-cover"
+          className=" z-0 w-full h-full object-cover"
           src={illust2[imageIndex2]}
         />
       </Card>
@@ -53,7 +53,7 @@ export default function NextCard({ header }: { header: string }) {
           isZoomed
           removeWrapper
           alt="illustrations"
-          className="z-0 w-full h-full object-cover"
+          className=" z-0 w-full h-full object-cover"
           src="/designs/vinil-1.webp"
         />
       </Card>
@@ -66,11 +66,11 @@ export default function NextCard({ header }: { header: string }) {
           isZoomed
           removeWrapper
           alt="stickers"
-          className="z-0 w-full h-full object-cover"
+          className=" z-0 w-full h-full object-cover"
           src="/designs/vinil-2.webp"
         />
         <CardFooter
-          className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100"
+          className="absolute bg-black/40 bottom-0  z-10 border-t-1 border-default-600 dark:border-default-100"
         >
           <div className="flex flex-grow gap-2 items-center">
             <Image
@@ -95,7 +95,7 @@ export default function NextCard({ header }: { header: string }) {
         <Image
           removeWrapper
           alt="vinilos.jb"
-          className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
+          className=" z-0 w-full h-full scale-125 -translate-y-6 object-cover"
           src="/designs/brand.webp"
         />
         <CardFooter

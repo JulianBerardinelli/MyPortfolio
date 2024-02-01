@@ -1,12 +1,14 @@
 ---
 import i18next, { t, changeLanguage } from "i18next";
 import { Trans, HeadHrefLangs } from "astro-i18next/components";
+import { LanguageSelector } from "astro-i18next/components";
 ---
 
 
 <header class="flex justify-center items-center py-5 w-full xl:w-[1120px] mx-auto">
 
     <nav class="hidden sm:flex flex-row gap-x-10 opacity-80">
+        <LanguageSelector showFlag={true} class=" font-light text-sm rounded-full border bg-black/5 border-white/5 gap-x-1 px-1  hover:scale-105 hover:bg-black/10 hover:boder-blue-500 transition focus:outline-none" />
         <a class="hover:scale-105 transition" href="#home">{t("header.home")}</a>
         <a class="hover:scale-105 transition" href="#about">{t("header.about")}</a>
         <a class="hover:scale-105 transition" href="#certificates">{t("header.certificates")}</a>       

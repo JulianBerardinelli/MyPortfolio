@@ -2,5 +2,5 @@
 export default {
     defaultLocale: "en",
     locales: ["en", "es", "pt", "it", "de"],
-    currentLocale: process.env.LOCALE || navigator.language.slice(0, 2), 
+    // currentLocale: process.env.LOCALE || navigator.language.slice(0, 2), 
   };
