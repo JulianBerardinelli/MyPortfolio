@@ -20,20 +20,20 @@ export default function NextCard({ header }: { header: string }) {
         // Cambia la imagen del primer conjunto cada 5 segundos
         const intervalId1 = setInterval(() => {
             setImageIndex1((prevIndex) => (prevIndex + 1) % illust1.length);
-        }, 3000);
+        }, 5000);
 
         // Cambia la imagen del segundo conjunto cada 5 segundos
         const intervalId2 = setInterval(() => {
             setImageIndex2((prevIndex) => (prevIndex + 1) % illust2.length);
-        }, 3000);
+        }, 5000);
 
         const intervalId3 = setInterval(() => {
             setImageIndex3((prevIndex) => (prevIndex + 1) % illust3.length);
-        }, 3000);
+        }, 5000);
 
         const intervalId4 = setInterval(() => {
             setImageIndex4((prevIndex) => (prevIndex + 1) % illust4.length);
-        }, 3000);
+        }, 5000);
 
         // Limpia los intervalos al desmontar el componente
         return () => {

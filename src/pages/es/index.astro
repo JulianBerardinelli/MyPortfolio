@@ -24,6 +24,7 @@ import ProjectsIcon from "../../components/icons/ProjectsIcon.astro";
 import DesignerIcon from "../../components/icons/DesignerIcon.astro";
 import DesignsContentMedia from "../../components/DesignsContentMedia";
 import Footer from "../../components/Footer.astro";
+import Tags from "../../components/Tags.astro";
 
 changeLanguage("es");
 ---
@@ -53,7 +54,7 @@ description={t("site.description")}>
 				<Badge>{t("main.badge")}</Badge>
 			<a/>
 			<h2 class="text-m lg:text-xl text-wrap opacity-90 max-w-[700px]">
-				Desarrollador Web <span class="text-green-300 font-semibold">Full-Stack</span> Junior y <span class="font-semibold text-purple-300">Graphic Designer</span>
+				Desarrollador Web <span class="text-green-300 font-semibold">Full-Stack</span> Junior y <span class="font-semibold text-purple-300">Diseñador Gráfico</span>
 			<br>
 			{t("main.description.from")}<img class="w-7 inline" src="/logos/arg-flag.png" alt="">{t("main.description.to")}<img class="w-6 inline" src="/logos/eur-flag.png" alt="">
 			</h2>
@@ -124,11 +125,13 @@ description={t("site.description")}>
 					{t("designerProfile.subTitle-1")}</h2>
 				<p class="text-sm lg:text-lg mb-4 text-pretty opacity-70">{t("designerProfile.illustration-parrafo")}
 				</p>
+				<Tags/>
 			<DesignsContent client:visible header="Header" />
 			<h2 class="flex items-center gap-x-3 text-lg lg:text-2xl font-semibold mb-4 mt-16 text-blue-200">
 				{t("designerProfile.subTitle-2")}</h2>
 				<p class="text-sm lg:text-lg mb-4 pb-4 text-pretty opacity-70">{t("designerProfile.photoshop-parrafo2")}
 				</p>
+				<Tags/>
 			<DesignsContentMedia client:visible header="Header" ></DesignsContentMedia>
 			<div class="pt-4">
 				<SocialPill href="https://www.behance.net/julianberardi1/" target="_blank">

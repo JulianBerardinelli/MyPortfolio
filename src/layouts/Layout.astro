@@ -1,5 +1,6 @@
 ---
-import Header from "../components/Header.astro";
+import HeaderPhone from "../components/HeaderPhone.astro";
+import HeaderComputer from '../components/HeaderComputer.astro'
 import "@fontsource-variable/onest";
 
 interface Props {
@@ -22,7 +23,7 @@ import { LanguageSelector } from "astro-i18next/components";
 		<meta charset="UTF-8" />
 		<meta name="description" content="Hire Julian Berardinelli - Web Development and Graphic Design Services" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Julián Berardinelli - Dev & Designer</title>
 
@@ -37,14 +38,15 @@ import { LanguageSelector } from "astro-i18next/components";
 		<HeadHrefLangs />
 	</head>
 	<body>
-		<div class="flex justify-end items-center">
+		<div class="flex justify-end items-center pt-4">
+			<HeaderPhone class="hidden sm:block z-50" />
 			<div class="w-50% py-4 px-4">
 				<LanguageSelector showFlag={true} class=" sm:hidden rounded-full border bg-black/5 border-white/5 gap-x-2 px-1 font-light text-xs hover:scale-105 hover:bg-black/10 hover:boder-blue-500 transition focus:outline-none" />
 			</div>
 		</div>
+		<HeaderComputer class="hidden sm:block" />
 
 
-		<Header />
 		<slot />
 	</body>
 </html>
@@ -70,17 +72,6 @@ import { LanguageSelector } from "astro-i18next/components";
 		min-height: 100vh;
 		font-family: "Onest Variable";
 	}
-	body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    background-image: url('ruta/de/tu/textura-de-grano.png'); /* Reemplaza con la ruta correcta de tu textura de grano */
-    opacity: 0.1; /* Ajusta la opacidad según sea necesario */
-}
 	@media (prefers-reduce-motion: reduce){
 		html {
 			scroll-behavior: auto;
