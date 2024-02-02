@@ -14,6 +14,7 @@ import Certificates from "../components/minimal/sections/Certificates.astro";
 import { basics } from "../../cv.json"
 import DesignProjects from "../components/minimal/sections/DesignProjects.astro";
 import Languages from "../components/minimal/sections/Languages.astro";
+import Interests from "../components/minimal/sections/Interests.astro";
 ---
 
 <LayoutSimplified title={t("site.title")}
@@ -27,6 +28,7 @@ description={t("site.description")}>
     <Projects/>
     <DesignProjects/>
     <Certificates/>
+    <Interests
   </main>
   <KeyboardManager />
 </LayoutSimplified>

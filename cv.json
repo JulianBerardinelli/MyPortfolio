@@ -302,12 +302,21 @@
         }
         ],
     "interests": [{
-        "name": "Wildlife",
-        "keywords": [
-        "Ferrets",
-        "Unicorns"
-        ]
-    }],
+        "name": "Football"
+    },
+    {
+        "name": "Surf & Beach Sports"
+    },
+    {
+        "name": "Guitars & Rock'N Roll"
+    },
+    {
+        "name": "Nutrition"
+    },
+    {
+        "name": "Travelling"
+    }
+],
     "references": [{
         "name": "Jane Doe",
         "reference": "Reference…"
