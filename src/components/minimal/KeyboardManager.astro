@@ -76,7 +76,12 @@ const profilesInfo = profiles.map(({ network, url }) => {
 ---
 
 <footer id="normal-footer" class="no-print">
-  Press <kbd>Cmd</kbd> + <kbd>K</kbd> to open the command palette.
+  <div class="screen">
+    Press <kbd>Cmd</kbd> + <kbd>K</kbd> to open the command palette.
+  </div>
+  <div class="mobile">
+    <button id="button-ninja-keys">Click</button> to open the command palette.
+  </div>
 </footer>
 
 <div id="footer-button" class="no-print">
@@ -115,6 +120,12 @@ const profilesInfo = profiles.map(({ network, url }) => {
     icon: string
     hotkey: string
   }
+
+  const $buttonNinjaKeys = document.querySelector('#button-ninja-keys')
+  $buttonNinjaKeys?.addEventListener('click', () => {
+    const ninja = document.querySelector("ninja-keys") as any;
+    ninja?.shadowRoot.querySelector('[part="overlay"]').open();
+  })
 
   const ninja : any = document.querySelector("ninja-keys")
   const footerButton = document.getElementById("footer-button")
@@ -177,6 +188,23 @@ const profilesInfo = profiles.map(({ network, url }) => {
       display: none !important;
     }
   }
+  @media (width <= 768px) {
+    .screen {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
+  }
+
+  @media (width > 768px) {
+    .screen {
+      display: block;
+    }
+    .mobile {
+      display: none;
+    }
+  }
 
   @keyframes fadeIn {
     from {
@@ -185,6 +213,13 @@ const profilesInfo = profiles.map(({ network, url }) => {
     to {
       opacity: 1;
     }
+  }
+  button {
+    background: #eee;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 4px;
+    cursor: default;
   }
 
   @media (min-width: 601px) {

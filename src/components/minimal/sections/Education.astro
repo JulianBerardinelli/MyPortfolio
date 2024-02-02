@@ -4,7 +4,7 @@ import Section from "../Section.astro"
 import { education } from "../../../../cv.json"
 ---
 
-<Section title="Education">
+<Section class="pt-50" title="Education" {...Astro.props}>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {

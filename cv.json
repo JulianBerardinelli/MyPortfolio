@@ -2,7 +2,7 @@
     "basics": {
         "name": "Julián Berardinelli",
         "label": "Junior Full-Stack Web Developer & Graphic Designer",
-        "image": "./public/me.jpeg",
+        "image": "/me.jpeg",
         "email": "julian.berardinelli@gmail.com",
         "phone": "+41 (0) 772333990",
         "url": "www.julianberardinelli.com/",
@@ -283,7 +283,7 @@
             "flag":"flags/uk.png"
         },
         {
-            "language": "Portugues",
+            "language": "Português",
             "fluency": "Advanced",
             "description":"Resided in San Paulo, Brazil for 4 years",
             "flag":"flags/brazil.png"
@@ -291,7 +291,7 @@
         {
             "language": "Italian",
             "fluency": "Advanced",
-            "description":"Resided in Padova, Italy for 1 years",
+            "description":"Resided in Padova, Italy for a year",
             "flag":"flags/italy.png"
         },
         {
