@@ -2,31 +2,41 @@
 import i18next, { t, changeLanguage } from "i18next";
 import { Trans, HeadHrefLangs } from "astro-i18next/components";
 import { LanguageSelector } from "astro-i18next/components";
-
+import Simplified from '../components/icons/Simplified.astro'
+import CV from '../components/icons/CV.astro';
+import {Button, ButtonGroup} from "@nextui-org/react";
 
 ---
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-    // Get the menu items
-    var menuItems = document.querySelectorAll('.nav-wrapper ul li a');
+        // Get the menu items
+        var menuItems = document.querySelectorAll('.nav-wrapper ul li a');
 
-    // Add click event listener to each menu item
-    menuItems.forEach(function (menuItem) {
-        menuItem.addEventListener('click', function () {
-            // Uncheck the checkbox (close the menu)
-            var navCheckbox = document.getElementById('nav') as HTMLInputElement;
-            if (navCheckbox) {
-                navCheckbox.checked = false;
-            }
+        // Add click event listener to each menu item
+        menuItems.forEach(function (menuItem) {
+            menuItem.addEventListener('click', function () {
+                // Uncheck the checkbox (close the menu)
+                var navCheckbox = document.getElementById('nav') as HTMLInputElement;
+                if (navCheckbox) {
+                    navCheckbox.checked = false;
+                    document.body.style.overflow = ''; // Restablecer el estilo overflow
+                }
+            });
         });
-    });
-});
 
+        // Get the checkbox element
+        var navCheckbox = document.getElementById('nav') as HTMLInputElement;
+
+        // Check if navCheckbox is not null before adding event listener
+        if (navCheckbox) {
+            navCheckbox.addEventListener('change', function () {
+                // Toggle overflow style based on the checkbox state
+                document.body.style.overflow = navCheckbox.checked ? 'hidden' : '';
+            });
+        }
+    });
 </script>
-<header
-    class="sm:hidden justify-center items-center py-5 w-full xl:w-[1120px] mx-auto"
->
-    <nav class="flex flex-row gap-x-10 opacity-80 z-50">
+    <nav class="sm:hidden flex flex-row gap-x-10 opacity-80 z-50">
         <input type="checkbox" id="nav" class="hidden" />
         <label for="nav" class="nav-btn">
             <i></i>
@@ -55,6 +65,20 @@ import { LanguageSelector } from "astro-i18next/components";
                     <a class="hover:scale-105 transition" href="#contact"
                         >{t("header.contact")}</a>
                 </li>
+                <li>
+                    <a  target="_blank" href="">
+                        <Button>
+                            <Simplified class="size-4"/>
+                            {t("header.simple")}</Button>
+                    </a>
+                </li>
+                <li>
+                    <a  target="_blank" href="">
+                        <Button  color="success" variant="shadow">
+                            <CV class="size-4"/>
+                            {t("header.cv")}</Button>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -76,6 +100,7 @@ import { LanguageSelector } from "astro-i18next/components";
             background:  #03045e;
             opacity: 0;
             transition: all 0.2s ease;
+            visibility: hidden;
         }
 
         .nav-wrapper ul {
@@ -94,35 +119,47 @@ import { LanguageSelector } from "astro-i18next/components";
         }
 
         .nav-wrapper ul li:nth-child(1) a {
-            transition-delay: 0.2s;
-        }
+        transition-delay: 0.15s;
+    }
 
-        .nav-wrapper ul li:nth-child(2) a {
-            transition-delay: 0.3s;
-        }
+    .nav-wrapper ul li:nth-child(2) a {
+        transition-delay: 0.2s;
+    }
 
-        .nav-wrapper ul li:nth-child(3) a {
-            transition-delay: 0.4s;
-        }
+    .nav-wrapper ul li:nth-child(3) a {
+        transition-delay: 0.25s;
+    }
 
-        .nav-wrapper ul li:nth-child(4) a {
-            transition-delay: 0.5s;
-        }
+    .nav-wrapper ul li:nth-child(4) a {
+        transition-delay: 0.3s;
+    }
 
-        .nav-wrapper ul li:not(:first-child) {
-            margin-left: 0;
-        }
+    .nav-wrapper ul li:nth-child(5) a {
+        transition-delay: 0.35s;
+    }
 
-        .nav-wrapper ul li a {
-            padding: 10px 24px;
-            opacity: 0;
-            color: #ffffff;
-            font-size: 24px;
-            font-weight: 600;
-            transform: translateX(-20px);
-            transition: all 0.2s ease;
-            margin-right: 10px;
-        }
+    .nav-wrapper ul li:nth-child(6) a {
+        transition-delay: 0.4s;
+    }
+
+    .nav-wrapper ul li:nth-child(7) a {
+        transition-delay: 0.45s;
+    }
+
+    .nav-wrapper ul li:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .nav-wrapper ul li a {
+        padding: 10px 24px;
+        opacity: 0;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 600;
+        transform: translateX(-20px);
+        transition: all 0.2s ease;
+        margin-right: 10px;
+    }
         .nav-btn {
             position: fixed;
             left: 10px;
@@ -180,6 +217,7 @@ import { LanguageSelector } from "astro-i18next/components";
     }
 
     #nav:checked ~ .nav-wrapper {
+        visibility: visible;
         z-index: 9990;
         opacity: 1;
     }

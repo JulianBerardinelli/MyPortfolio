@@ -38,8 +38,8 @@ import { LanguageSelector } from "astro-i18next/components";
 		<HeadHrefLangs />
 	</head>
 	<body>
+		<HeaderPhone class="hidden sm:block z-50" />
 		<div class="flex justify-end items-center pt-4">
-			<HeaderPhone class="hidden sm:block z-50" />
 			<div class="w-50% py-4 px-4">
 				<LanguageSelector showFlag={true} class=" sm:hidden rounded-full border bg-black/5 border-white/5 gap-x-2 px-1 font-light text-xs hover:scale-105 hover:bg-black/10 hover:boder-blue-500 transition focus:outline-none" />
 			</div>
