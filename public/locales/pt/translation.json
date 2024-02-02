@@ -8,7 +8,9 @@
         "about": "Sobre mim",
         "certificates": "Certificados",
         "projects": "Projetos",
-        "contact": "Contato"
+        "contact": "Contato",
+        "simple": "Versão simplificada",
+        "cv": "Baixar CV"
     },
     "main": {
         "title": "Oi, eu sou Julián Berardinelli",

@@ -1,0 +1,389 @@
+{
+    "basics": {
+        "name": "Julián Berardinelli",
+        "label": "Junior Full-Stack Web Developer & Graphic Designer",
+        "image": "./public/me.jpeg",
+        "email": "julian.berardinelli@gmail.com",
+        "phone": "+41 (0) 772333990",
+        "url": "www.julianberardinelli.com/",
+        "born": "Buenos Aires, Argentina",
+        "summary": "I'm 19 years old, and currently a professional football player and a IT engineering student. I discovered the world of development a year ago, my main strengths are being self-taught and quick to learn, specializing in full-stack web development and also working as a sports graphic designer",
+        "location": {
+        "address": "",
+        "postalCode": "8872",
+        "city": "Weesen, St Gallen",
+        "countryCode": "CH",
+        "region": "Switzerland"
+        },
+        "profiles": [
+        {
+            "network": "LinkedIn",
+            "username": "Julian Berardinelli",
+            "url": "https://www.linkedin.com/in/juli%C3%A1n-berardinelli-3813a8248/?originalSubdomain=ar",
+            "IMG":"/flag/linkedin.png"
+        },
+        {
+            "network": "Behnance",
+            "username": "Julian Berardinelli",
+            "url": "https://www.behance.net/julianberardi1/",
+            "IMG":"/flag/behnance.png"
+        },
+        {
+            "network": "GitHub",
+            "username": "Julian Berardinelli",
+            "url": "https://github.com/JulianBerardinelli",
+            "linkedinIMG":""
+        }
+        ]
+    },
+    "work": [
+        {
+        "name": "midudev",
+        "position": "Divulgador sobre Programación Web",
+        "url": "https://twitch.tv/midudev",
+        "startDate": "2021-01-01",
+        "endDate": null,
+        "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+        "highlights": [
+            "Started the company"
+        ]
+        },
+        {
+        "name": "Adevinta",
+        "position": "Lead Frontend Architect",
+        "url": "https://twitch.tv/midudev",
+        "startDate": "2016-06-01",
+        "endDate": "2022-09-01",
+        "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+        "highlights": [
+            "Started the company"
+        ]
+        },
+        {
+        "name": "Hubii",
+        "position": "Senior FrontEnd Developer",
+        "startDate": "2011-03-01",
+        "endDate": "2016-05-01",
+        "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+        "highlights": [
+            "Started the company"
+        ]
+        }
+    ],
+    "volunteer": [{
+        "organization": "Organization",
+        "position": "Volunteer",
+        "url": "https://organization.com/",
+        "startDate": "2012-01-01",
+        "endDate": "2013-01-01",
+        "summary": "Description…",
+        "highlights": [
+        "Awarded 'Volunteer of the Month'"
+        ]
+    }],
+    "education": [
+    {
+        "institution": "Deutsche Schule Temperley",
+        "url": "https://temperleyschule.edu.ar/index.htm",
+        "area": "Trilingual Primary School",
+        "studyType": "Primary School",
+        "startDate": "2007-01-01",
+        "endDate": "2017-01-01",
+        "score": "4.0",
+        "courses": [
+        "DB1101 - Basic SQL"
+        ]
+    },
+    {
+        "institution": "Colegio Manuel Belgrano",
+        "url": "https://www.belgrano.esc.edu.ar/",
+        "area": "Secondary School",
+        "studyType": "Economy Bachelor",
+        "startDate": "2017-01-01",
+        "endDate": "2022-01-01",
+        "score": "4.0",
+        "courses": [
+        "DB1101 - Basic SQL"
+        ]
+    },
+    {
+        "institution": "Universidad Argentina de la Empresa (UADE)",
+        "url": "https://www.uade.edu.ar/",
+        "area": "IT  Engineering",
+        "studyType": "University Degree",
+        "startDate": "2023-03-01",
+        "endDate": "0",
+        "score": "4.0",
+        "courses": [
+        "DB1101 - Basic SQL"
+        ]
+    }
+    ],
+    "awards": [{
+        "title": "Award",
+        "date": "2014-11-01",
+        "awarder": "Company",
+        "summary": "There is no spoon."
+    }],
+    "certificates": [
+        {
+        "date": "December 2023",
+        "title": "Master's in JavaScript: MEAN Stack",
+        "description": "Comprehensive course covering JavaScript, jQuery, TypeScript, Angular, NodeJS, and building modern web applications.",
+        "link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-500b3bb5-3fd0-49f5-a28e-24ac3214c88d.pdf"
+    },
+    {
+        "date": "September 2023 => 75% completed.",
+        "title": "IBM Data Science Professional Certificate - Coursera",
+        "description": "Accelerate entry into data science. Master Python, SQL, and machine learning. Build a robust portfolio in financial analysis, predictive modeling, and dynamic dashboards.",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/YM39887UG76N"
+    },
+    {
+        "date": "Febrary 2023",
+        "title": "Web Developer Certificate - CoderHouse",
+        "description": "Master web development. Explore HTML, CSS, GIT, and SASS for efficient development. Acquire skills in Bootstrap, SEO, server deployment, and client communication.",
+        "link": "https://www.coderhouse.es/certificados/6456151de78efc0002ec926"
+    },
+    {
+        "date": "January 2022",
+        "title": "Java for Non-Programmers",
+        "description": "Explore Java fundamentals, covering syntax, semantics, flow control structures, constants, variables, conditional statements, operators, vector creation, usage, arrays, and methods.",
+        "link": "https://api.educacionit.com/pdf/certificados/julian-berardinelli-539995/44814"
+    }],
+    "publications": [{
+        "name": "Publication",
+        "publisher": "Company",
+        "releaseDate": "2014-10-01",
+        "url": "https://publication.com",
+        "summary": "Description…"
+    }],
+    "skills": [
+        {
+            "name": "HTML5",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend"]
+        },
+        {
+            "name": "CSS3",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend", "Responsive Design"]
+        },
+        {
+            "name": "JavaScript",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+        },
+        {
+            "name": "TypeScript",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend", "Backend", "JavaScript Superset"]
+        },
+        {
+            "name": "Angular",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend", "Framework"]
+        },
+        {
+            "name": "Tailwind",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
+        },
+        {
+            "name": "Bootstrap",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend", "Framework"]
+        },
+        {
+            "name": "Sass",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend", "Responsive Design"]
+        },
+        {
+            "name": "JQuery",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend", "Framework"]
+        },
+        {
+            "name": "Astro",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend", "Framework"]
+        },
+        {
+            "name": "Node JS",
+            "level": "Master",
+            "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+        },
+        {
+            "name": "Express",
+            "level": "Master",
+            "keywords": ["Web Development", "Backend", "Framework"]
+        },
+        {
+            "name": "Python",
+            "level": "Master",
+            "keywords": ["Web Development", "Backend", "Language"]
+        },
+        {
+            "name": "Django",
+            "level": "Master",
+            "keywords": ["Web Development", "Backend", "Framework"]
+        },
+        {
+            "name": "Flask",
+            "level": "Master",
+            "keywords": ["Web Development", "Backend", "Framework"]
+        },
+        {
+            "name": "MySQL",
+            "level": "Master",
+            "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+        },
+        {
+            "name": "MongoDB",
+            "level": "Master",
+            "keywords": ["Databases", "NoSQL", "Data Storage", "Backend"]
+        },
+        {
+            "name": "Strapi",
+            "level": "Master",
+            "keywords": ["Web Development", "Backend", "CMS"]
+        },
+        {
+            "name": "Git",
+            "level": "Master",
+            "keywords": ["Version Control", "Collaboration", "Source Code"]
+        },
+        {
+            "name": "Jira",
+            "level": "Master",
+            "keywords": ["Version Control", "Collaboration", "Project Management"]
+        },
+        {
+            "name": "Selenium",
+            "level": "Master",
+            "keywords": ["Test Automation", "Testing SW"]
+        },
+        {
+            "name": "Postman",
+            "level": "Master",
+            "keywords": ["Collaboration", "Testing SW", "API Testing"]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "fluency": "Native speaker",
+            "description":"",
+            "flag":"flags/spain.png"
+        },
+        {
+            "language": "English",
+            "fluency": "Level B2",
+            "description":"Intermediate high",
+            "flag":"flags/uk.png"
+        },
+        {
+            "language": "Portugues",
+            "fluency": "Advanced",
+            "description":"Resided in San Paulo, Brazil for 4 years",
+            "flag":"flags/brazil.png"
+        },
+        {
+            "language": "Italian",
+            "fluency": "Advanced",
+            "description":"Resided in Padova, Italy for 1 years",
+            "flag":"flags/italy.png"
+        },
+        {
+            "language": "Deutsch",
+            "fluency": "Elementary proficiency",
+            "description":"Learning",
+            "flag":"flags/germany.png"
+        }
+        ],
+    "interests": [{
+        "name": "Wildlife",
+        "keywords": [
+        "Ferrets",
+        "Unicorns"
+        ]
+    }],
+    "references": [{
+        "name": "Jane Doe",
+        "reference": "Reference…"
+    }],
+    "projects": [
+        {
+        "name": "FORELSKET-MB eCommerce",
+        "isActive": false,
+        "description": "First full-stack project—a custom e-commerce solution. Grateful for the opportunity and proud of this solo, self-taught endeavor. Ready to showcase the results! 👨‍💻",
+        "highlights": [
+            "Angular",
+            "Strapi",
+            "Mongo",
+            "Node.js",
+            "Express",
+            "Tailwind",
+            "Postman",
+            "AWS"
+        ],
+        "url": ""
+        },
+        {
+        "name": "KYC Media",
+        "isActive": true,
+        "description": "Your ally in digital marketing. Enhance your online presence and business strategies. Discover how to stand out with our specialized services.",
+        "highlights": [
+            "JavaScript",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "SASS"
+        ],
+        "url": "https://kycmedia.agency/",
+        "github": "https://github.com/JulianBerardinelli/Kyc-MarketingSolutionsPage"
+        },
+        {
+        "name": "Hertha Website",
+        "isActive": true,
+        "description": "Welcome to the Official Website of Hertha Junior, an Argentine Amateur Football Club. Family, friends, and football. Currently competing in the Premier Cup.",
+        "highlights": [
+            "HTML",
+            "CSS",
+            "SASS",
+            "Tailwind",
+            "JavaScript"
+        ],
+        "url": "https://herthajunior.vercel.app/",
+        "github": "https://github.com/JulianBerardinelli/Hertha.jr-page.io"
+        }
+    ],
+    "designs": [
+        {
+        "name": "Digital Illustrations - Sticker Shop",
+        "isActive": true,
+        "description": "Passionate about creativity, my Sticker Design Project features professionally crafted illustrations, showcasing adaptability in both traditional and digital mediums. A unique contribution to the visual arts.",
+        "highlights": [
+            "Digital Marketing",
+            "Photoshop",
+            "Illustrator",
+            "Lightroom"
+        ],
+        "url": "https://www.instagram.com/vinilos.jb/",
+        "behnance":"https://www.instagram.com/vinilos.jb/"
+        },
+        {
+        "name": "Personal Branding & Media Designer",
+        "isActive": true,
+        "description": "Elevate your athletic career with impactful personal branding. Present yourself professionally with a customized CV/Portfolio. Swift service, ensuring delivery in less than a week for an efficient experience",
+        "highlights": [
+            "Digital Marketing",
+            "Photoshop",
+            "Illustrator",
+            "Lightroom"
+        ],
+        "url": "https://www.behance.net/julianberardi1/projects",
+        "behnance":"https://www.behance.net/julianberardi1/projects"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+---
+import Button from "./NextUIbutton2.astro"
+---
+
+<a 
+{...Astro.props}
+class="hidden sm:block" 
+    >
+    <Button class="rounded-full">
+        <slot />
+    </Button>
+</a>

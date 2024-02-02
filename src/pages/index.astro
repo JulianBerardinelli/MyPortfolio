@@ -25,6 +25,9 @@ import DesignerIcon from "../components/icons/DesignerIcon.astro";
 import DesignsContentMedia from "../components/DesignsContentMedia";
 import Footer from "../components/Footer.astro";
 import Tags from "../components/Tags.astro";
+import CV from "../components/icons/CV.astro";
+import CVPill from "../components/CVPill.astro"
+import Simplified from "../components/icons/Simplified.astro";
 
 changeLanguage("en");
 ---
@@ -74,6 +77,15 @@ description={t("site.description")}>
 					<BehnanceIcon class="size-4 lg:size-6"/>
 					Behnance</a>
 				</SocialPill>
+				<CVPill href="/cv">
+					<Simplified class="size-4 lg:size-6"/>
+					{t("header.simple")}</a>
+				</CVPill>
+				<CVPill download="berardinelli-cv">
+					<CV class="size-4 lg:size-6"/>
+					{t("header.cv")}</a>
+				</CVPill>
+
 			</nav>
 		</SectionsContainers>
 

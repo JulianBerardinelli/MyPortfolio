@@ -5,6 +5,9 @@ import { LanguageSelector } from "astro-i18next/components";
 import Simplified from '../components/icons/Simplified.astro'
 import CV from '../components/icons/CV.astro';
 import {Button, ButtonGroup} from "@nextui-org/react";
+import Whats from "./icons/Whats.astro";
+
+
 
 ---
 <script>
@@ -62,21 +65,21 @@ import {Button, ButtonGroup} from "@nextui-org/react";
                         >{t("header.projects")}</a>
                 </li>
                 <li>
-                    <a class="hover:scale-105 transition" href="#contact"
+                    <a class="hover:scale-105 transition" href="mailto:julian.berardinelli@gmail.com/" target="_blank"
                         >{t("header.contact")}</a>
-                </li>
+                </li> 
                 <li>
-                    <a  target="_blank" href="">
-                        <Button>
-                            <Simplified class="size-4"/>
-                            {t("header.simple")}</Button>
-                    </a>
-                </li>
-                <li>
-                    <a  target="_blank" href="">
+                    <a  target="_blank" href="" download="berardinelli-cv">
                         <Button  color="success" variant="shadow">
                             <CV class="size-4"/>
                             {t("header.cv")}</Button>
+                    </a>
+                </li>
+                <li>
+                    <a  target="_blank" href="/cv">
+                        <Button>
+                            <Simplified class="size-4"/>
+                            {t("header.simple")}</Button>
                     </a>
                 </li>
             </ul>

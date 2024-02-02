@@ -1,0 +1,46 @@
+---
+import LayoutSimplified from "../layouts/LayoutSimplified.astro"
+import i18next, { t, changeLanguage } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+import About from "../components/minimal/sections/About.astro";
+import Education from "../components/minimal/sections/Education.astro";
+import Experience from "../components/minimal/sections/Experience.astro";
+import Hero from "../components/minimal/sections/Hero.astro";
+import Projects from "../components/minimal/sections/Projects.astro";
+import Skills from "../components/minimal/sections/Stack.astro";
+import KeyboardManager from "../components/minimal/KeyboardManager.astro"
+import Certificates from "../components/minimal/sections/Certificates.astro";
+
+import { basics } from "../../cv.json"
+import DesignProjects from "../components/minimal/sections/DesignProjects.astro";
+import Languages from "../components/minimal/sections/Languages.astro";
+---
+
+<LayoutSimplified title={t("site.title")}
+description={t("site.description")}>
+  <main>
+    <Hero/>
+    <About/>
+    <Languages/>
+    <Education/>
+    <Skills/>
+    <Certificates/>
+    <Projects/>
+    <DesignProjects/>
+  </main>
+  <KeyboardManager />
+</LayoutSimplified>
+
+<style>
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  @media (width <= 700px) {
+    main {
+      padding: 1rem;
+    }
+  }
+</style>

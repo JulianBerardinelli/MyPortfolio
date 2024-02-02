@@ -38,20 +38,96 @@ import { LanguageSelector } from "astro-i18next/components";
 		<HeadHrefLangs />
 	</head>
 	<body>
-		<HeaderPhone class="hidden sm:block z-50" />
+		<!-- <HeaderPhone class="hidden sm:block z-50" />
 		<div class="flex justify-end items-center pt-4">
 			<div class="w-50% py-4 px-4">
 				<LanguageSelector showFlag={true} class=" sm:hidden rounded-full border bg-black/5 border-white/5 gap-x-2 px-2 font-light text-xs hover:scale-105 hover:bg-black/10 hover:boder-blue-500 transition focus:outline-none" />
 			</div>
 		</div>
-		<HeaderComputer class="hidden sm:block" />
+		<HeaderComputer class="hidden sm:block" /> -->
 
 
 		<slot />
 	</body>
 </html>
 <style is:global>
+    html {
+        font-family: Menlo, Monaco, Lucida Console, 'Courier New', Courier, monospace;
+        background: white;
+        letter-spacing: -0.025rem;
+    }
+    
+    body,
+    figure {
+    margin: 0;
+    padding: 0;
+    }
 
+    a {
+    text-decoration: none;
+    }
+
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    *,
+    *::before,
+    *::after {
+    box-sizing: border-box;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+    margin: 0;
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    }
+
+    p {
+        color: #666;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin: 0;
+        text-wrap: pretty;
+    }
+
+    .print {
+        display: none !important;
+    }
+
+    @media print {
+        .no-print {
+        display: none !important;
+        }
+
+        .print {
+        display: block !important;
+        }
+
+        astro-dev-toolbar {
+        display: none !important;
+        }
+
+        article {
+        break-inside: avoid;
+        }
+    }
+/*
 	:root {
 		color-scheme: light dark;
 	}
@@ -89,6 +165,5 @@ import { LanguageSelector } from "astro-i18next/components";
 	span.flags {
 		font-family: "Noto Color Emoji";
 		font-size: 1em;
-
-	}
+	} */
 </style>
