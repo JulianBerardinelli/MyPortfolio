@@ -25,6 +25,10 @@ import DesignerIcon from "../../components/icons/DesignerIcon.astro";
 import DesignsContentMedia from "../../components/DesignsContentMedia";
 import Footer from "../../components/Footer.astro";
 import Tags from "../../components/Tags.astro";
+import CV from "../../components/icons/CV.astro";
+import CVPill from "../../components/CVPill.astro"
+import Simplified from "../../components/icons/Simplified.astro";
+import Languages from "../../components/Languages.astro";
 
 changeLanguage("es");
 ---
@@ -75,6 +79,14 @@ description={t("site.description")}>
 					<BehnanceIcon class="size-4 lg:size-6"/>
 					Behnance</a>
 				</SocialPill>
+				<CVPill href="/cv">
+					<Simplified class="size-4 lg:size-6"/>
+					{t("header.simple")}</a>
+				</CVPill>
+				<CVPill href="/berardinelli-cv.pdf" download="berardinelli-cv.pdf">
+					<CV class="size-4 lg:size-6"/>
+					{t("header.cv")}</a>
+				</CVPill>
 			</nav>
 		</SectionsContainers>
 
@@ -87,6 +99,11 @@ description={t("site.description")}>
 				<h2 class="text-xl font-semibold mb-6 flex items-center gap-x-3 text-blue-200">
 					{t("aboutme.studies")}</h2>
 				<Studies/>
+			</SectionsContainers>
+			<SectionsContainers class="mt-10">
+				<h2 class="text-xl font-semibold mb-6 flex items-center gap-x-3 text-blue-200">
+					{t("languages.title")}</h2>
+				<Languages/>
 			</SectionsContainers>
 		</SectionsContainers>
 

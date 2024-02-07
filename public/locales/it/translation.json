@@ -24,6 +24,35 @@
         "description": "Il mio nome è Julian, ho 19 anni e attualmente sono un calciatore professionista e studente di ingegneria informatica. Ho scoperto il mondo dello sviluppo un anno fa, le mie principali forze sono l'autoapprendimento e la prontezza nel imparare, specializzandomi nello sviluppo web full-stack e lavorando anche come graphic designer sportivo.",
         "studies": "Studi"
     },
+    
+    "languages": {
+        "title": "Lingue",
+        "spanish": {
+        "title": "Spagnolo",
+        "fluency": "Madrelingua",
+        "description": ""
+        },
+        "portuguese": {
+        "title": "Portoghese",
+        "fluency": "Avanzato",
+        "description": "Ho vissuto a San Paolo, Brasile, per 4 anni"
+        },
+        "english": {
+        "title": "Inglese",
+        "fluency": "Livello B2",
+        "description": "Intermedio alto"
+        },
+        "italian": {
+        "title": "Italiano",
+        "fluency": "Avanzato",
+        "description": "Ho vissuto a Padova, Italia, per un anno"
+        },
+        "german": {
+        "title": "Tedesco",
+        "fluency": "Conoscenza elementare",
+        "description": "Sto imparando..."
+        }
+    },
     "STUDIE": {
         "fisrt": {
             "date": "Scuola primaria",

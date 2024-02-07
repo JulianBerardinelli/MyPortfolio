@@ -24,6 +24,34 @@
         "description": "Mein Name ist Julian, ich bin 19 Jahre alt und derzeit professioneller Fußballspieler und Student der Informationstechnik. Ich habe vor einem Jahr die Welt der Entwicklung entdeckt. Meine Hauptstärken sind Selbststudium und schnelles Lernen, spezialisiert auf Full-Stack-Webentwicklung und Arbeit als Sportgrafikdesigner.",
         "studies": "Studium"
     },
+    "languages": {
+        "title": "Sprachen",
+        "spanish": {
+        "title": "Spanisch",
+        "fluency": "Muttersprachler",
+        "description": ""
+        },
+        "portuguese": {
+        "title": "Portugiesisch",
+        "fluency": "Fortgeschritten",
+        "description": "Lebte in São Paulo, Brasilien, für 4 Jahre"
+        },
+        "english": {
+        "title": "Englisch",
+        "fluency": "Niveau B2",
+        "description": "Fortgeschrittene Mittelstufe"
+        },
+        "italian": {
+        "title": "Italienisch",
+        "fluency": "Fortgeschritten",
+        "description": "Lebte in Padua, Italien, für ein Jahr"
+        },
+        "german": {
+        "title": "Deutsch",
+        "fluency": "Elementare Kenntnisse",
+        "description": "Lernen..."
+        }
+    },
     "STUDIE": {
         "fisrt": {
             "date": "Grundschule",

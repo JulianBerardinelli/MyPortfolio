@@ -1,0 +1,133 @@
+---
+import i18next, { t, changeLanguage } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+
+const LANGUAGES = [
+    {
+        name: t("languages.spanish.title"),
+        fluency: t("languages.spanish.fluency"),
+        desc: t("languages.spanish.description"),
+        icon: "/flags/spain.png",
+    },
+    {
+        name: t("languages.portuguese.title"),
+        fluency: t("languages.portuguese.fluency"),
+        desc: t("languages.portuguese.description"),
+        icon: "/flags/brazil.png",
+    },
+    {
+        name: t("languages.english.title"),
+        fluency: t("languages.english.fluency"),
+        desc: t("languages.english.description"),
+        icon: "/flags/uk.png",
+    },
+    {
+        name: t("languages.italian.title"),
+        fluency: t("languages.italian.fluency"),
+        desc: t("languages.italian.description"),
+        icon: "/flags/italy.png",
+    },
+    {
+        name: t("languages.german.title"),
+        fluency: t("languages.german.fluency"),
+        desc: t("languages.german.description"),
+        icon: "/flags/germany.png",
+    },
+];
+---
+
+<nav class="flex gap-x-4 mt-8 md:mt-12 flex-wrap">
+    <div class="grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5">
+    {
+        LANGUAGES.map(({ name, fluency, desc, icon }) => (
+                    <article  >
+                        <header class="justify-center flex-column">
+                            <img class="w-10" src={icon} alt="">
+                            <div>
+                                
+                                <h3 class="font-semibold">{name}</h3>
+                            </div>
+                            <h5 class="text-xs font-light">{fluency}</h5>
+                        </header>
+                        <footer>
+                            
+                            <p>{desc}</p>
+                        </footer>
+                    </article>
+        ))
+    }
+    </div>
+</nav>
+
+<style>
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-inline: -16px;
+    }
+
+
+    article {
+        border-radius: 8px;
+        border: 1px solid #f2f2f2;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 12px;
+        height: 100%;
+    }
+    article {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+        border-radius: 0.375rem;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+article:hover {
+  transform: scale(1.05);
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: #3182ce;
+}
+
+    article header {
+        flex: 1;
+    }
+
+    article h3 {
+        margin-bottom: 4px;
+    }
+
+    article a {
+        color: #111;
+    }
+
+    article a:hover {
+        text-decoration: underline;
+    }
+
+    article p {
+        font-size: 0.75rem;
+        line-height: 1.2rem;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.6rem;
+    }
+
+    footer span {
+        border-radius: 6px;
+        background: #eee;
+        color: #444;
+        font-size: 0.6rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+    }
+
+</style>

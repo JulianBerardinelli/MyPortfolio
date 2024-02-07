@@ -24,6 +24,35 @@
         "description": "Mi nombre es Julián, tengo 19 años y actualmente soy jugador profesional de fútbol y estudiante de ingeniería informática. Descubrí el mundo del desarrollo hace un año, mis principales fortalezas son la autodidacta y la rápida capacidad de aprendizaje, especializándome en desarrollo web full-stack y también trabajando como diseñador gráfico deportivo.",
         "studies": "Estudios"
     },
+
+    "languages": {
+        "title": "Idiomas",
+        "spanish": {
+        "title": "Español",
+        "fluency": "Hablante nativo",
+        "description": ""
+        },
+        "portuguese": {
+        "title": "Portugués",
+        "fluency": "Avanzado",
+        "description": "Residí en São Paulo, Brasil, durante 4 años"
+        },
+        "english": {
+        "title": "Inglés",
+        "fluency": "Nivel B2",
+        "description": "Intermedio alto"
+        },
+        "italian": {
+        "title": "Italiano",
+        "fluency": "Avanzado",
+        "description": "Residí en Padua, Italia, durante un año"
+        },
+        "german": {
+        "title": "Alemán",
+        "fluency": "Competencia elemental",
+        "description": "¡Estoy aprendiendo..."
+        }
+    },
     "STUDIE": {
         "fisrt": {
             "date": "Escuela Primaria",
