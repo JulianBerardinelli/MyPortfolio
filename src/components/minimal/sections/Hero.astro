@@ -11,6 +11,7 @@ import WorldMap from "../icons/WorldMap.astro"
 import type { SocialIcon } from "../../../types"
 import Section from "../Section.astro"
 import Behnance from "../icons/Behnance.astro"
+import CV from "../../icons/CV.astro"
 
 const { name, url ,label, image, location, profiles, phone, email, born } = basics
 const { city, region } = location
@@ -100,6 +101,17 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
                 rel="noopener noreferrer"
               >
                 <Behnance/>
+              </a>
+        }
+        {
+          <a
+                download="berardinelli-cv.pdf"
+                href="/berardinelli-cv.pdf"
+                title={`Download ${name}'s CV`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CV/>
               </a>
         }
       </footer>
