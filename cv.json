@@ -184,6 +184,16 @@
             "keywords": ["Web Development", "Frontend", "Framework"]
         },
         {
+            "name": "React",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend", "Library"]
+        },
+        {
+            "name": "React Native",
+            "level": "Master",
+            "keywords": ["Mobile", "Frontend", "Library"]
+        },
+        {
             "name": "Tailwind",
             "level": "Master",
             "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
