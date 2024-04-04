@@ -1,10 +1,11 @@
 ---
-import PhotoshopIcon from '../components/icons/PhotoshopIcon.astro';
-import IllustratorIcon from '../components/icons/IllustratorIcon.astro';
-import FigmaIcon from '../components/icons/FigmaIcon.astro';
-import PremierIcon from '../components/icons/PremierIcon.astro';
+import PhotoshopIcon from './icons/PhotoshopIcon.astro';
+import IllustratorIcon from './icons/IllustratorIcon.astro';
+import FigmaIcon from './icons/FigmaIcon.astro';
+import PremierIcon from './icons/PremierIcon.astro';
+import AfterEffectsIcon from './icons/AfterEffectsIcon.astro';
 
-import StackPill from '../components/StackPills.astro'
+import StackPill from './StackPills.astro'
 ---
 
 
@@ -46,6 +47,14 @@ import StackPill from '../components/StackPills.astro'
                 <p class="opacity-50 text- pt-1 text-xs">Videos SW</p>
             </div>
         </StackPill>
-
+        <StackPill>
+            <AfterEffectsIcon class="size-12" />
+            <div class="mb-3 flex flex-col items-center justify-center py-4 pb-0">
+                <h5 class="text-[15px] font-medium text-balance text-center select-all">
+                    After Effects
+                </h5>
+                <p class="opacity-50 text- pt-1 text-xs">Visual Effects</p>
+            </div>
+        </StackPill>
     </div>
 </nav>
