@@ -53,6 +53,7 @@
         }
     },
     "STUDIE": {
+        
         "fisrt": {
             "date": "Primary School",
             "description": "Trilingual School."
@@ -103,7 +104,13 @@
         "title": "Projects"
     },
     "PROJ":{
+        "new":"New Project!",
         "loading": "Comming soon ...",
+
+        "xclon": {
+            "desc": "Full-Stack Project, X/Twitter clone developed with Next.js and hosted on Supabase. Highlighting skills in user authentication, social media login, and posting and interaction functionalities. Key aspects include the ability to create, share, edit, and delete posts, with upcoming features for interacting with other users' content through likes and comments. Inspired by the work done by midudev. Currently available for Web."
+        },
+
         "first": {
             "desc": "Excited to announce my first full-stack project—a 100% custom e-commerce solution for a valued client. Grateful for the opportunity and proud that everything I've learned, from languages to development environments, has been a solo, self-taught endeavor. Ready to showcase the results of this independent effort! 👨‍💻"
         },

@@ -102,6 +102,13 @@
     },
     "PROJ":{
         "loading": "Demnächst ...",
+
+        "new":"Neu!",
+
+        "xclon": {
+            "desc": "Full-Stack-Projekt, X/Twitter-Klon entwickelt mit Next.js und gehostet auf Supabase. Hervorhebung von Fähigkeiten in der Benutzerauthentifizierung, Anmeldung über soziale Medien und Post- und Interaktionsfunktionalitäten. Zu den wichtigsten Aspekten gehört die Möglichkeit, Beiträge zu erstellen, zu teilen, zu bearbeiten und zu löschen, mit bevorstehenden Funktionen zur Interaktion mit Inhalten anderer Benutzer durch Likes und Kommentare. Inspiriert von der Arbeit von midudev. Derzeit für Web verfügbar."
+        },
+
         "first": {
             "desc": "Freue mich, mein erstes Full-Stack-Projekt anzukündigen - eine zu 100% maßgeschneiderte E-Commerce-Lösung für einen geschätzten Kunden. Dankbar für die Gelegenheit und stolz darauf, dass alles, was ich gelernt habe, von Sprachen bis zu Entwicklungsumgebungen, ein Solo- und Selbstlernprojekt war. Bereit, die Ergebnisse dieser unabhängigen Anstrengung zu präsentieren! 👨‍💻"
         },

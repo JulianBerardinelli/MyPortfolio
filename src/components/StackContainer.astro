@@ -25,6 +25,7 @@ import ReactIcon from './icons/ReactIcon.astro';
 import ReactNativeIcon from './icons/ReactNativeIcon.astro';
 
 import StackPill from '../components/StackPills.astro'
+import NextIcon from './icons/NextIcon.astro';
 ---
 
 <nav class="flex gap-x-4 mt-8 md:mt-12 flex-wrap">
@@ -84,12 +85,30 @@ import StackPill from '../components/StackPills.astro'
             </div>
         </StackPill>
         <StackPill>
+            <NextIcon class="size-8 lg:size-12" />
+            <div class="mb-3 flex flex-col items-center justify-center py-4 pb-0">
+                <h5 class="text-[15px] font-medium text-balance text-center select-all">
+                    Next JS
+                </h5>
+                <p class="opacity-50 text- pt-1 text-xs">Framework</p>
+            </div>
+        </StackPill>
+        <StackPill>
             <ReactNativeIcon class="size-8 lg:size-12" />
             <div class="mb-3 flex flex-col items-center justify-center py-4 pb-0">
                 <h5 class="text-[15px] font-medium text-balance text-center select-all">
                     R - Native
                 </h5>
                 <p class="opacity-50 text- pt-1 text-xs">Mobile</p>
+            </div>
+        </StackPill>
+        <StackPill>
+            <AstroIcon class="size-8 lg:size-12" />
+            <div class="mb-3 flex flex-col items-center justify-center py-4 pb-0">
+                <h5 class="text-[15px] font-medium text-balance text-center select-all">
+                    Astro
+                </h5>
+                <p class="opacity-50 text- pt-1 text-xs">Framework</p>
             </div>
         </StackPill>
         <StackPill>
@@ -124,15 +143,6 @@ import StackPill from '../components/StackPills.astro'
             <div class="mb-3 flex flex-col items-center justify-center py-4 pb-0">
                 <h5 class="sm:text-[10px] md:text-[15px] lg:text-[15px] font-medium text-balance text-center select-all">
                     JQuery
-                </h5>
-                <p class="opacity-50 text- pt-1 text-xs">Framework</p>
-            </div>
-        </StackPill>
-        <StackPill>
-            <AstroIcon class="size-8 lg:size-12" />
-            <div class="mb-3 flex flex-col items-center justify-center py-4 pb-0">
-                <h5 class="text-[15px] font-medium text-balance text-center select-all">
-                    Astro
                 </h5>
                 <p class="opacity-50 text- pt-1 text-xs">Framework</p>
             </div>

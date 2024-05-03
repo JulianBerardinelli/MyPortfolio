@@ -333,6 +333,20 @@
     }],
     "projects": [
         {
+            "name": "X - Twitter Clone",
+            "isActive": true,
+            "description": "Full-Stack Project, X/Twitter clone developed with Next.js and hosted on Supabase. Highlighting skills in user authentication, social media login, and posting and interaction functionalities. Key aspects include the ability to create, share, edit, and delete posts, with upcoming features for interacting with other users' content through likes and comments. Inspired by the work done by midudev. Currently available for Web.",
+            "highlights": [
+                "React",
+                "Next.JS",
+                "Supabase",
+                "Tailwind",
+                "PostgreSQL"
+            ],
+            "url": "https://github.com/JulianBerardinelli/xClon",
+            "github": "https://github.com/JulianBerardinelli/xClon"
+            },
+        {
         "name": "FORELSKET-MB eCommerce",
         "isActive": false,
         "description": "First full-stack project—a custom e-commerce solution. Grateful for the opportunity and proud of this solo, self-taught endeavor. Ready to showcase the results! 👨‍💻",
