@@ -189,6 +189,11 @@
             "keywords": ["Web Development", "Frontend", "Library"]
         },
         {
+            "name": "Next.js",
+            "level": "Master",
+            "keywords": ["Web Development", "Frontend", "Library"]
+        },
+        {
             "name": "React Native",
             "level": "Master",
             "keywords": ["Mobile", "Frontend", "Library"]
