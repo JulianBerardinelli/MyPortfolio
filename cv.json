@@ -7,13 +7,13 @@
         "phone": "+41 (0) 772333990",
         "url": "www.julianberardinelli.com/",
         "born": "Buenos Aires, Argentina",
-        "summary": "I'm 19 years old, and currently a professional football player and a IT engineering student. I discovered the world of development a year ago, my main strengths are being self-taught and quick to learn, specializing in full-stack web development and also working as a sports graphic designer",
+        "summary": "I'm 20 years old, and currently a professional football player and a IT engineering student. I discovered the world of development a year ago, my main strengths are being self-taught and quick to learn, specializing in full-stack web development and also working as a sports graphic designer",
         "location": {
         "address": "",
-        "postalCode": "8872",
-        "city": "Weesen, St Gallen",
-        "countryCode": "CH",
-        "region": "Switzerland"
+        "postalCode": "40820",
+        "city": "Jyväskylä",
+        "countryCode": "FI",
+        "region": "Finland"
         },
         "profiles": [
         {
@@ -38,49 +38,20 @@
     },
     "work": [
         {
-        "name": "midudev",
-        "position": "Divulgador sobre Programación Web",
-        "url": "https://twitch.tv/midudev",
-        "startDate": "2021-01-01",
-        "endDate": null,
-        "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-        "highlights": [
-            "Started the company"
-        ]
-        },
-        {
-        "name": "Adevinta",
-        "position": "Lead Frontend Architect",
-        "url": "https://twitch.tv/midudev",
-        "startDate": "2016-06-01",
-        "endDate": "2022-09-01",
-        "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-        "highlights": [
-            "Started the company"
-        ]
-        },
-        {
-        "name": "Hubii",
-        "position": "Senior FrontEnd Developer",
-        "startDate": "2011-03-01",
-        "endDate": "2016-05-01",
-        "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-        "highlights": [
-            "Started the company"
-        ]
-        }
+            "name": "Nexions Solutions",
+            "position": "Full Stack Developer",
+            "url": "https://www.nexionsolutions.com", 
+            "startDate": "2024-03-01",
+            "endDate": null,
+            "summary": "First professional experience in software development, working on a custom CMS system for a metalworking company. Backend development using C#, .NET, and Entity Framework, collaborating on architecture design and business logic implementation.",
+            "highlights": [
+              "Agile development with defined deadlines",
+              "Technical documentation (UML, use cases, user stories)",
+              "Direct communication with the client",
+              "Version control and independent contributions"
+            ]
+          }          
     ],
-    "volunteer": [{
-        "organization": "Organization",
-        "position": "Volunteer",
-        "url": "https://organization.com/",
-        "startDate": "2012-01-01",
-        "endDate": "2013-01-01",
-        "summary": "Description…",
-        "highlights": [
-        "Awarded 'Volunteer of the Month'"
-        ]
-    }],
     "education": [
     {
         "institution": "Deutsche Schule Temperley",
@@ -249,6 +220,21 @@
             "keywords": ["Web Development", "Backend", "Framework"]
         },
         {
+            "name": "C#",
+            "level": "Master",
+            "keywords": [ "Backend", "Language", "Microsoft"]
+        },
+        {
+            "name": ".NET",
+            "level": "Master",
+            "keywords": ["Backend", "Framework", "Microsoft"]
+        },
+        {
+            "name": "Entity Framework",
+            "level": "Master",
+            "keywords": ["Backend", "ORM", "Microsoft"]
+        },
+        {
             "name": "MySQL",
             "level": "Master",
             "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
@@ -314,6 +300,12 @@
             "fluency": "Elementary proficiency",
             "description":"Learning",
             "flag":"flags/germany.png"
+        },
+        {
+            "language": "Finnish",
+            "fluency": "Learning",
+            "description":"Currently living in Jyväskylä, Finland",
+            "flag":"flags/finland.png"
         }
         ],
     "interests": [{

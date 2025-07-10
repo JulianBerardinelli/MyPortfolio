@@ -12,6 +12,7 @@ import type { SocialIcon } from "../../../types"
 import Section from "../Section.astro"
 import Behnance from "../icons/Behnance.astro"
 import CV from "../../icons/CV.astro"
+import Finland from "../icons/Finland.astro"
 
 const { name, url ,label, image, location, profiles, phone, email, born } = basics
 const { city, region } = location
@@ -44,7 +45,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         {born}
       </span>
       <span>
-        <Swiss class="size-3 mr-1"/>
+        <Finland class="size-5 mr-1"/>
+        
         {city}, {region} 
       </span>
       <a href={url}><h4 class="text-sm">{url}</h4></a>

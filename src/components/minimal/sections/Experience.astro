@@ -4,7 +4,7 @@ import Section from "../Section.astro"
 import { work } from "../../../../cv.json"
 ---
 
-<Section title="Experiencia laboral">
+<Section title="Work Experience">
   <ul>
     {
       work.map(
@@ -32,6 +32,16 @@ import { work } from "../../../../cv.json"
 
                 <footer>
                   <p>{summary}</p>
+                  <ul class="ul-exp mt-5">
+                    {
+
+                      highlights.map((highlight) => (
+                         <li class="li-exp">
+                          <span>{highlight}</span>
+                        </li>
+                      ))
+                    }
+                  </ul>
                 </footer>
               </article>
             </li>
@@ -43,6 +53,22 @@ import { work } from "../../../../cv.json"
 </Section>
 
 <style>
+  .ul-exp {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .li-exp {
+    border-radius: 6px;
+    background: #eee;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+  
+
   ul {
     display: flex;
     flex-direction: column;
