@@ -31,6 +31,11 @@ const { index, date, title, description1, description2, link } = Astro.props;
         <time class="block mb-2 text-sm font-normal leading-none text-gray-500">
           {date}
         </time>
+        <a href={link} target="_blank">
+            <span class="inline-flex items-center text-xs font-medium text-white">
+                {link}
+            </span>
+        </a>
         <p class="text-base font-normal text-[12px] lg:text-[11.5px] text-white opacity-70 text-balance ">
           {description1}
         </p>
