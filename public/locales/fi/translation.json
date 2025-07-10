@@ -1,0 +1,146 @@
+{
+    "site": {
+      "title": "Julián Berardinelli - Portfolio",
+      "description": "Palkkaa Julian Berardinelli – verkkokehitys- ja graafisen suunnittelun palvelut"
+    },
+    "header": {
+      "home": "Koti",
+      "about": "Tietoja minusta",
+      "certificates": "Sertifikaatit",
+      "projects": "Projektit",
+      "contact": "Ota yhteyttä",
+      "simple": "Yksinkertaistettu versio",
+      "cv": "Lataa ansioluettelo"
+    },
+    "main": {
+      "title": "Hei, olen Julián Berardinelli",
+      "badge": "Avoinna työtilaisuuksiin!",
+      "description": {
+        "from": "Alkaen ",
+        "to": " asti "
+      }
+    },
+    "aboutme": {
+      "title": "Tietoja minusta",
+      "description": "Nimeni on Julian, olen 19-vuotias ja työskentelen tällä hetkellä ammattilaisjalkapalloilijana sekä opiskelen tietotekniikan insinööriuraa. Löysin kehityksen maailman vuosi sitten. Tärkeimmät vahvuuteni ovat itse opetettu ja nopea omaksuminen, erikoistuen full‑stack‑verkkokehitykseen sekä työskennellen urheilugraafisena suunnittelijana.",
+      "studies": "Opinnot"
+    },
+    "WORK": {
+      "name": "Työkokemus",
+      "first":{
+        "date": "Maaliskuu 2024 – Nykyhetki",
+        "title": "Full Stack -kehittäjä – Nexions Solutions",
+        "description1": "Ensimmäinen ammatillinen kokemus ohjelmistokehityksen alalla. Työskentelen tällä hetkellä full stack -kehittäjänä räätälöidyn CMS-järjestelmän parissa metalliteollisuuden yritykselle. Osallistun taustajärjestelmän toteutukseen C#:lla, .NET:llä ja Entity Frameworkilla sekä järjestelmän arkkitehtuurin suunnitteluun ja skaalautuvan liiketoimintalogiikan kehittämiseen.",
+        "description2": "Toimin yhteistyökykyisessä ympäristössä, hallinnoiden omia panoksiani itsenäisesti versionhallinnan avulla ja noudattaen hyviä kehityskäytäntöjä. Osallistun myös kattavan teknisen dokumentaation laatimiseen, mukaan lukien luokkakaaviot, käyttötapaukset, käyttäjätarinat ja toiminnalliset määritykset. Pidän suoraa ja sujuvaa yhteyttä asiakkaaseen ja osallistun säännöllisiin toimituksiin sovituissa aikarajoissa, ketterän ja tuloskeskeisen työskentelytavan mukaisesti."
+        }
+      },
+    "languages": {
+    "title": "Kielet",
+    "spanish": {
+        "title": "Espanja",
+        "fluency": "Äidinkieli",
+        "description": ""
+    },
+    "portuguese": {
+        "title": "Portugali",
+        "fluency": "Edistynyt",
+        "description": "Asuin São Paulossa, Brasiliassa 4 vuotta"
+    },
+    "english": {
+        "title": "Englanti",
+        "fluency": "Taso B2",
+        "description": "Keskitasoa korkeampi"
+    },
+    "italian": {
+        "title": "Italia",
+        "fluency": "Edistynyt",
+        "description": "Asuin Padovassa, Italiassa vuoden ajan"
+    },
+    "german": {
+        "title": "Saksa",
+        "fluency": "Alkeistaso",
+        "description": "Asuin Zürichissä, Sveitsissä 6 kuukautta"
+    },
+    "finland": {
+        "title": "Suomi",
+        "fluency": "Aloittelija",
+        "description": "Asun tällä hetkellä Jyväskylässä"
+    }
+    },
+    "STUDIE": {
+      "fisrt": {
+        "date": "Primary School",
+        "description": "Trilingual School."
+      },
+      "second": {
+        "date": "Secondary School",
+        "description": "Graduated with a Bachelor's degree in Economic Sciences with an average grade of 8."
+      },
+      "third": {
+        "title": "IT Engineering - UADE",
+        "date": "University Studies",
+        "description": "Current"
+      }
+    },
+    "knowledge": {
+      "title": "My Stack",
+      "developer": "DEVELOPER",
+      "designer": "DESIGNER"
+    },
+    "certificates": {
+      "title": "Certificates"
+    },
+    "CERT": {
+      "first": {
+        "date": "Joulukuu 2023",
+        "title": "Master's in JavaScript: MEAN Stack",
+        "desc": "Kattava JavaScript-kurssi: perusohjelmoinnista edistyneeseen MEAN-pinoon. Hallitse JavaScript, jQuery, TypeScript, Angular, NodeJS ja rakenna moderneja web-sovelluksia. Paranna työmahdollisuuksiasi full-stack-kehityksen, RESTful-API:en ja MongoDB-integraation avulla."
+      },
+      "second": {
+        "date": "Syyskuu 2023 – 75 % kurssista suoritettu",
+        "title": "IBM Data Science Professional Certificate – Coursera",
+        "desc": "Nopeuta pääsyäsi kukoistavaan data­tieteen alaan tämän 5 kuukautta kestävän ohjelman avulla. Peruskonsepteista edistyneisiin taitoihin – opit Pythonin, SQL:n ja koneoppimis­algoritmit. Rakenna vahva portfolio käytännön projektien kautta, ja saa kokemusta rahoitus­analytiikasta, ennustevastauksesta ja dynaamisesta dashboard‑suunnittelusta."
+      },
+      "third": {
+        "date": "Helmikuu 2023",
+        "title": "Web Developer Certificate – CoderHouse",
+        "desc": "Hallinnoi web-kehityksen taidetta. Tutki HTML:tä, CSS:ää, GIT:ä ja SASS:ia tehokkaaseen kehitykseen. Hallitse Bootstrapin, SEO:n, palvelimen käyttöönoton ja asiakasviestinnän perusteet. Ota käyttöön taito esittää tarjouksia ammattimaisesti."
+      },
+      "fourth": {
+        "date": "Tammikuu 2022",
+        "title": "Java for Non‑Programmers",
+        "desc": "Tutustu Javan perusteisiin: syntaksiin, semantiikkaan, ohjausrakenteisiin, vakiomuuttujiin, ehdollisiin lauseisiin, operaattoreihin, vektorien ja taulukoiden luomiseen, sekä menetelmiin (funktiot ja proseduurit). Saat kattavan käsityksen Java‑ohjelmoinnin peruskäsitteistä."
+      }
+    },
+    "projects": {
+      "title": "Projects"
+    },
+    "PROJ": {
+      "new": "Uusi projekti!",
+      "loading": "Tulossa pian...",
+      "xclon": {
+        "desc": "Full-stack‑projekti, X/Twitter-kloni, kehitetty Next.js:llä ja isännöity Supabasessa. Korostaa käyttäjäautentikointia, sosiaalisen median kirjautumista sekä julkaisujen ja vuorovaikutustoimintojen hallintaa. Keskeisiä ominaisuuksia ovat viestien luominen, jakaminen, muokkaaminen ja poistaminen – pian myös tykkäykset ja kommentit. Innoittaja midudev. Saatavilla webissä."
+      },
+      "first": {
+        "desc": "Innoissani ilmoittaa ensimmäisestä full-stack‑projektistani – täysin räätälöity verkkokaupparatkaisu arvokkaalle asiakkaalle. Kiitollinen mahdollisuudesta ja ylpeä siitä, että kaikki oppimani, kielistä kehitysympäristöihin asti, on itsekseen opittua. Valmis esittelemään tämän itsenäisen työn tulokset! 👨‍💻"
+      },
+      "second": {
+        "desc": "Digitaalisen markkinoinnin kumppanisi. Parannamme verkko‑läsnäoloasi ja liiketoimintastrategioita. Ota esiin erottuvuus erikoispalveluidemme avulla."
+      },
+      "third": {
+        "desc": "Tervetuloa Hertha Juniorin viralliselle sivustolle – argentiinalaiselle amatöörijalkapalloseuralle. Perhe, ystävät ja jalkapallo. Tällä hetkellä kilpaillaan Premier Cupissa."
+      }
+    },
+    "designerProfile": {
+      "title": "Graafisen suunnittelun profiili",
+      "subTitle-1": "Illustratiivinen projekti",
+      "illustration-parrafo": "Elämäni aikana olen erottunut luovuudellani; piirustus on ollut tunnusomainen taiteellinen ilmaisumuotoni. Paperilla, canvalla, graffiti‑seinissä ja nykyisin digitaalisessa illustroinnissa taitojeni monipuolisuus ja tekninen osaaminen korostuvat. Ainutlaatuinen taiteellinen otteeni ja illustrointitaitoni ovat arvokkaita resursseja mille tahansa luovalle projektille.",
+      "subTitle-2": "Henkilökohtaisen brändäyksen ja median suunnittelija",
+      "photoshop-parrafo2": "Viimeistele urheilullinen urasi vaikuttavalla henkilökohtaisella brändäyksellä. Esittele itsesi urheilumahdollisuuksille ammattimaisella ansioluettelo-/portfoliolla, jossa on erottuva ja täysin räätälöity muotoilu. Hyödynnä nopeaa palveluamme – toimitus alle viikossa takaa tehokkaan ja joustavan kokemuksen."
+    },
+    "footer": {
+      "derechos": "Kaikki oikeudet pidätetään.",
+      "politics": "Tietosuojakäytäntö"
+    }
+  }
+  

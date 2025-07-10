@@ -29,6 +29,7 @@ import CV from "../../components/icons/CV.astro";
 import CVPill from "../../components/CVPill.astro"
 import Simplified from "../../components/icons/Simplified.astro";
 import Languages from "../../components/Languages.astro";
+import Works from "../../components/Works.astro";
 
 changeLanguage("de");
 ---
@@ -94,6 +95,11 @@ description={t("site.description")}>
 				<AboutIcon class="size-7"/>
 				{t("aboutme.title")}</h2>
 			<p class="opacity-80">{t("aboutme.description")}</p>
+			<SectionsContainers class="mt-10">
+				<h2 class="text-xl font-semibold mb-6 flex items-center gap-x-3 text-blue-200">
+					{t("WORK.name")}</h2>
+				<Works/>
+			</SectionsContainers>
 			<SectionsContainers class="mt-10">
 				<h2 class="text-xl font-semibold mb-6 flex items-center gap-x-3 text-blue-200">
 					{t("aboutme.studies")}</h2>

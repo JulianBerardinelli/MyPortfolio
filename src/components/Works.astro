@@ -1,0 +1,26 @@
+---
+import WorkItem from "./WorkItem.astro"
+// translations
+import i18next, { t, changeLanguage } from "i18next";
+import { Trans, HeadHrefLangs } from "astro-i18next/components";
+
+const WORKS = [
+  {
+    date: t("WORK.first.date"),
+    title: t("WORK.first.title"),
+    description1: t("WORK.first.description1"),
+    description2: t("WORK.first.description2"),
+    link: "https://www.examplecompany.com"
+  },
+
+]
+---
+<ol class="relative border-s border-gray-200 dark:border-gray-700">
+  {
+    WORKS.map((work, index) => (
+      <li class="mb-10 ms-6">
+        <WorkItem {...work} index={index} />
+      </li>
+    ))
+  }
+</ol>

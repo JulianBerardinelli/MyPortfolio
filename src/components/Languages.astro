@@ -33,6 +33,12 @@ const LANGUAGES = [
         desc: t("languages.german.description"),
         icon: "/flags/germany.png",
     },
+    {
+        name: t("languages.finland.title"),
+        fluency: t("languages.finland.fluency"),
+        desc: t("languages.finland.description"),
+        icon: "/flags/finland.png",
+    },
 ];
 ---
 
@@ -47,11 +53,11 @@ const LANGUAGES = [
                                 
                                 <h3 class="font-semibold">{name}</h3>
                             </div>
-                            <h5 class="text-xs font-light">{fluency}</h5>
+                            <h5 class="text-xs font-light ">{fluency}</h5>
                         </header>
                         <footer>
                             
-                            <p>{desc}</p>
+                            <p class="text-white/70">{desc}</p>
                         </footer>
                     </article>
         ))

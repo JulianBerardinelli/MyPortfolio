@@ -24,7 +24,15 @@
         "description": "Mi nombre es Julián, tengo 19 años y actualmente soy jugador profesional de fútbol y estudiante de ingeniería informática. Descubrí el mundo del desarrollo hace un año, mis principales fortalezas son la autodidacta y la rápida capacidad de aprendizaje, especializándome en desarrollo web full-stack y también trabajando como diseñador gráfico deportivo.",
         "studies": "Estudios"
     },
-
+    "WORK": {
+        "name": "Experiencia Laboral",
+        "first":{
+            "date": "Marzo de 2024 - Actualidad",
+            "title": "Desarrollador Full Stack - Nexions Solutions",
+            "description1": "Primera experiencia profesional en el ámbito del desarrollo de software. Actualmente me desempeño como desarrollador full stack en la creación de un sistema CMS a medida para una empresa metalúrgica. Participo en la implementación del backend con C#, .NET y Entity Framework, colaborando en el diseño arquitectónico y en el desarrollo de lógica de negocio robusta y escalable.",
+            "description2": "Trabajo en un entorno colaborativo, gestionando de forma autónoma mis contribuciones mediante control de versiones y aplicando buenas prácticas de desarrollo. Además, participo en la elaboración de documentación técnica integral, incluyendo diagramas de clases, casos de uso, historias de usuario y especificaciones funcionales. Mantengo una comunicación directa y fluida con el cliente, interviniendo en entregas periódicas con plazos definidos, en el marco de una metodología ágil orientada a resultados."
+        }
+    },
     "languages": {
         "title": "Idiomas",
         "spanish": {
@@ -50,7 +58,12 @@
         "german": {
         "title": "Alemán",
         "fluency": "Competencia elemental",
-        "description": "¡Estoy aprendiendo..."
+        "description": "Residí en Zúrich, Suiza durante 6 meses"
+        },
+        "finnish": {
+            "title": "Finés",
+            "fluency": "Aprendiendo...",
+            "description": "Actualmente residiendo en Jyväskylä"
         }
     },
     "STUDIE": {

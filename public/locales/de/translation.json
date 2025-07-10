@@ -24,6 +24,14 @@
         "description": "Mein Name ist Julian, ich bin 19 Jahre alt und derzeit professioneller Fußballspieler und Student der Informationstechnik. Ich habe vor einem Jahr die Welt der Entwicklung entdeckt. Meine Hauptstärken sind Selbststudium und schnelles Lernen, spezialisiert auf Full-Stack-Webentwicklung und Arbeit als Sportgrafikdesigner.",
         "studies": "Studium"
     },
+    "WORK": {
+        "name": "Berufserfahrung",
+        "first":{
+            "date": "März 2024 – Heute",
+            "title": "Full Stack Entwickler – Nexions Solutions",
+            "description1": "Erste berufliche Erfahrung im Bereich der Softwareentwicklung. Derzeit arbeite ich als Full Stack Entwickler an der Entwicklung eines maßgeschneiderten CMS-Systems für ein Metallverarbeitungsunternehmen. Ich bin an der Backend-Implementierung mit C#, .NET und Entity Framework beteiligt und arbeite an der Architektur und der Entwicklung robuster und skalierbarer Geschäftslogik.",
+            "description2": "Ich arbeite in einem kollaborativen Umfeld, verwalte meine Beiträge selbstständig mittels Versionskontrolle und setze bewährte Entwicklungspraktiken ein. Außerdem erstelle ich umfassende technische Dokumentationen, einschließlich Klassendiagrammen, Anwendungsfällen, User Stories und funktionalen Spezifikationen. Ich pflege eine direkte und offene Kommunikation mit dem Kunden und bin in regelmäßige Lieferungen mit klaren Fristen eingebunden – im Rahmen einer ergebnisorientierten agilen Methodik."        }
+    },
     "languages": {
         "title": "Sprachen",
         "spanish": {
@@ -49,7 +57,12 @@
         "german": {
         "title": "Deutsch",
         "fluency": "Elementare Kenntnisse",
-        "description": "Lernen..."
+        "description": "Lebte in Zürich, Schweiz, für 6 Monate"
+        },
+        "finnish": {
+            "title": "Finnisch",
+            "fluency": "Lernen...",
+            "description": "Derzeit wohnhaft in Jyväskylä"
         }
     },
     "STUDIE": {

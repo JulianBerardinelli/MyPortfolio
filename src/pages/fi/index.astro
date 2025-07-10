@@ -2,35 +2,36 @@
 //translations
 import i18next, { t, changeLanguage } from "i18next";
 import { Trans, HeadHrefLangs } from "astro-i18next/components";
-import Layout from "../layouts/Layout.astro";
-import Badge from "../components/Badge.astro";
-import LinkedinIcon from "../components/icons/LinkedinIcon.astro";
-import GithubIcon from "../components/icons/GithubIcon.astro";
-import MailIcon from "../components/icons/MailIcon.astro";
-import AboutIcon from "../components/icons/AboutIcon.astro";
-import BehnanceIcon from "../components/icons/Behnance.astro";
-import StackIcon from "../components/icons/StackIcon.astro";
-import CertificateIcon from "../components/icons/CertificateIcon.astro";
-import DesignsContent from "../components/DesignsContent.tsx";
-import Certificates from "../components/Certificates.astro";
-import SocialPill from "../components/SocialPill.astro";
-import SectionsContainers from "../components/SectionsContainers.astro";
-import StackContainer from "../components/StackContainer.astro";
-import StackDseginConteiner from "../components/StackDseginConteiner.astro";
-import Studies from "../components/Studies.astro";
-import Projects from "../components/Projects.astro";
-import ProjectsIcon from "../components/icons/ProjectsIcon.astro";
-import DesignerIcon from "../components/icons/DesignerIcon.astro";
-import DesignsContentMedia from "../components/DesignsContentMedia";
-import Footer from "../components/Footer.astro";
-import Tags from "../components/Tags.astro";
-import CV from "../components/icons/CV.astro";
-import CVPill from "../components/CVPill.astro"
-import Simplified from "../components/icons/Simplified.astro";
-import Languages from "../components/Languages.astro";
-import KeyboardManager from '../components/KeyBoardManagerI.astro'
-import Works from "../components/Works.astro";
-changeLanguage("en");
+import Layout from "../../layouts/Layout.astro";
+import Badge from "../../components/Badge.astro";
+import LinkedinIcon from "../../components/icons/LinkedinIcon.astro";
+import GithubIcon from "../../components/icons/GithubIcon.astro";
+import MailIcon from "../../components/icons/MailIcon.astro";
+import AboutIcon from "../../components/icons/AboutIcon.astro";
+import BehnanceIcon from "../../components/icons/Behnance.astro";
+import StackIcon from "../../components/icons/StackIcon.astro";
+import CertificateIcon from "../../components/icons/CertificateIcon.astro";
+import DesignsContent from "../../components/DesignsContent";
+import Carousel from "../../components/Carousel.astro";
+import Certificates from "../../components/Certificates.astro";
+import SocialPill from "../../components/SocialPill.astro";
+import SectionsContainers from "../../components/SectionsContainers.astro";
+import StackContainer from "../../components/StackContainer.astro";
+import StackDseginConteiner from "../../components/StackDseginConteiner.astro";
+import Studies from "../../components/Studies.astro";
+import Projects from "../../components/Projects.astro";
+import ProjectsIcon from "../../components/icons/ProjectsIcon.astro";
+import DesignerIcon from "../../components/icons/DesignerIcon.astro";
+import DesignsContentMedia from "../../components/DesignsContentMedia";
+import Footer from "../../components/Footer.astro";
+import Tags from "../../components/Tags.astro";
+import CV from "../../components/icons/CV.astro";
+import CVPill from "../../components/CVPill.astro"
+import Simplified from "../../components/icons/Simplified.astro";
+import Languages from "../../components/Languages.astro";
+import Works from "../../components/Works.astro";
+
+changeLanguage("fi");
 ---
 
 <Layout title={t("site.title")}
@@ -57,8 +58,9 @@ description={t("site.description")}>
 			class="block sm:hidden justify-center items-center pb-4">
 				<Badge>{t("main.badge")}</Badge>
 			<a/>
-			<h2 class="text-m lg:text-xl text-wrap opacity-90 max-w-[700px]">Junior <span class="text-green-300 font-semibold">Full-Stack</span> Web Developer and <span class="font-semibold text-purple-300">Graphic Designer</span>
-			<br>
+			<h2 class="text-m lg:text-xl text-wrap opacity-90 max-w-[700px]">
+				Junior <span class="text-green-300 font-semibold">Full-Stack</span> -verkkokehittäjä ja <span class="font-semibold text-purple-300">graafinen suunnittelija</span>
+			  <br>			  
 			{t("main.description.from")}<img class="w-7 inline" src="/logos/arg-flag.png" alt="">{t("main.description.to")}<img class="w-6 inline" src="/logos/eur-flag.png" alt="">
 			</h2>
 			<nav class="flex gap-4 mt-8 flex-wrap">
@@ -86,7 +88,6 @@ description={t("site.description")}>
 					<CV class="size-4 lg:size-6"/>
 					{t("header.cv")}</a>
 				</CVPill>
-
 			</nav>
 		</SectionsContainers>
 
@@ -133,7 +134,7 @@ description={t("site.description")}>
 				{t("certificates.title")}</h2>
 				<Certificates/>
 		</SectionsContainers>
-		<SectionsContainers class="py-10" id="projects">
+		<SectionsContainers class="py-10">
 			<h2 class="text-2xl font-semibold mb-6 flex items-center gap-x-3">
 				<ProjectsIcon class="size-7"/>
 				{t("projects.title")}</h2>
@@ -151,7 +152,7 @@ description={t("site.description")}>
 			<DesignsContent client:visible header="Header" />
 			<h2 class="flex items-center gap-x-3 text-lg lg:text-2xl font-semibold mb-4 mt-16 text-blue-200">
 				{t("designerProfile.subTitle-2")}</h2>
-				<p class="text-sm lg:text-lg mb-4 text-pretty opacity-70">{t("designerProfile.photoshop-parrafo2")}
+				<p class="text-sm lg:text-lg mb-4 pb-4 text-pretty opacity-70">{t("designerProfile.photoshop-parrafo2")}
 				</p>
 				<Tags/>
 			<DesignsContentMedia client:visible header="Header" ></DesignsContentMedia>
@@ -166,4 +167,3 @@ description={t("site.description")}>
 	</main>
 	<Footer/>
 </Layout>
-<KeyboardManager />
